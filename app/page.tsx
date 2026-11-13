@@ -3,6 +3,7 @@
 import { Suspense, useRef, useEffect } from 'react';
 import { useChat } from 'ai/react';
 import { Send, Bot, User, Sparkles, AlertCircle, RefreshCw } from 'lucide-react';
+import { FormattedMessage } from './components/FormattedMessage';
 
 const SUGGESTIONS = [
   'Como abrir o caixa no início do dia?',
@@ -113,10 +114,10 @@ function ChatUI() {
                 className={`text-sm px-4 py-3 rounded-2xl max-w-[85%] sm:max-w-[75%] break-words leading-relaxed shadow-xs ${
                   isUser
                     ? 'bg-[#ff5e00] text-white rounded-br-xs font-normal'
-                    : 'bg-gray-100 text-gray-900 border border-gray-200 rounded-bl-xs font-normal whitespace-pre-wrap'
+                    : 'bg-gray-100 text-gray-900 border border-gray-200 rounded-bl-xs font-normal'
                 }`}
               >
-                {message.content}
+                <FormattedMessage content={message.content} isUser={isUser} />
               </div>
 
               {isUser && (
