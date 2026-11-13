@@ -176,7 +176,7 @@ function ChatUI() {
             onChange={handleInputChange}
             placeholder="Digite sua dúvida sobre o Allegro.NET..."
             disabled={isLoading}
-            className="flex-1 px-4 py-2.5 text-sm bg-gray-50 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#ff5e00] focus:border-transparent transition-all placeholder:text-gray-400 disabled:opacity-60 disabled:cursor-not-allowed"
+            className="flex-1 px-4 py-2.5 text-sm text-black bg-white border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#ff5e00] focus:border-transparent transition-all placeholder:text-gray-400 disabled:opacity-60 disabled:cursor-not-allowed shadow-xs"
           />
 
           <button
