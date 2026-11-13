@@ -1,0 +1,1516 @@
+AllegroNet
+Guia de Operação
+Administração Local
+Versão 6.1.34.7
+Atualização 01/04/2014
+
+-- 1 of 59 --
+
+AllegroNet – Módulo Administração Local Página 2 de 59
+Índice
+Operação Essencial .............................................................................................................. 4
+Comandos ........................................................................................................................ 4
+Digitação ......................................................................................................................... 4
+Indicação de Datas ( Calendário automático ) ............................................................................ 5
+Filtros de Pesquisa ............................................................................................................. 5
+Visão Geral do Administração Local .......................................................................................... 6
+Menu Cadastros ................................................................................................................... 7
+Cadastros Básicos............................................................................................................... 7
+Grupos de Serviços .......................................................................................................... 7
+Cadastrando os Feriados ................................................................................................... 8
+Cadastro de Grupo de Clientes ............................................................................................ 8
+Cadastros Financeiros ......................................................................................................... 8
+Cadastros Definidos pela Matriz ............................................................................................. 9
+Manutenção de Formas de Pagamento .................................................................................. 9
+Cadastrando as Taxas das Formas de Pagamento ...................................................................... 9
+Convênios ....................................................................................................................10
+Cadastro de Operadores......................................................................................................10
+Cadastro de Clientes ..........................................................................................................12
+Endereço de Clientes .........................................................................................................14
+Manutenção de Endereço em Massa .....................................................................................14
+Cadastro de CEP ............................................................................................................14
+Fornecedores ...................................................................................................................15
+Associando os Terceiros a Peças e Serviços ...............................................................................15
+Tabela de Preço de Terceiros ...............................................................................................16
+Cadastrando as Informações da Loja.......................................................................................16
+Menu Marketing ................................................................................................................. 18
+Exclusão Lógica de Clientes em Massa .....................................................................................18
+Exclusão Física de Clientes em Massa .....................................................................................18
+Unificação de Cadastros de Clientes .......................................................................................19
+Definir Ranking ................................................................................................................19
+Painel de Marketing ...........................................................................................................20
+Passo 1: Edição de Filtros .................................................................................................20
+Passo 2: Edição de Registros ..............................................................................................22
+Passo 3: Ações de Marketing ..............................................................................................23
+Configuração de E-mail ....................................................................................................26
+Preferência por Cliente ......................................................................................................27
+Envio de E-Mail em Massa dos Serviços Disponíveis .....................................................................28
+Menu Administração ........................................................................................................... 29
+Fechamento de Comissões ...................................................................................................29
+Fechamento de Entrada e Saída de Operadores .........................................................................30
+Troca de Executor .............................................................................................................31
+Pedidos de Compra ............................................................................................................32
+Notas Fiscais de Entrada .....................................................................................................33
+Ajustes e Quebra de Estoque ................................................................................................34
+Ajustes Estoque Mínimo e Máximo .........................................................................................35
+Ajustes de Locais de Estoque ...............................................................................................36
+Menu Financeiro ................................................................................................................ 37
+Painel Financeiro ..............................................................................................................37
+Efetuar Lançamentos ......................................................................................................38
+Quadro de Resultados ........................................................................................................40
+Transferir Valores Entre Contas ............................................................................................40
+Conciliação de Pagamento ...................................................................................................41
+Menu Relatórios ................................................................................................................ 43
+Relatórios de Clientes ........................................................................................................43
+Clientes Novos ..............................................................................................................43
+
+-- 2 of 59 --
+
+AllegroNet – Módulo Administração Local Página 3 de 59
+Aniversariantes..............................................................................................................44
+Melhores Clientes ...........................................................................................................44
+Volume de Produtos/Serviços por Cliente .............................................................................45
+Curva ABC ....................................................................................................................46
+Com Saldo ....................................................................................................................46
+Clientes com Endereço Incompleto .....................................................................................47
+Dados Cadastrais de Clientes .............................................................................................47
+Tickets ..........................................................................................................................47
+Relatório de Tickets ........................................................................................................48
+Retrabalhos ..................................................................................................................49
+Kilos/Cestos .................................................................................................................50
+Kit´s...........................................................................................................................51
+Orçamentos ..................................................................................................................51
+Orçamentos a Entregar por Hora ........................................................................................52
+Cobrança de Faturamento ................................................................................................52
+Envio de E-mail de Cobrança de Faturamento ........................................................................53
+Fechamento do Mês ........................................................................................................54
+Peças a Entregar por Hora ................................................................................................55
+Ranking de Peças/Serviços ................................................................................................55
+Relatório de Entrada e Saída de Operador .............................................................................56
+Relatório de Solicitações de Coleta/Entrega ..........................................................................56
+Relatório de Evolução de Delivery .......................................................................................56
+Backup Externo ................................................................................................................59
+
+-- 3 of 59 --
+
+AllegroNet – Módulo Administração Local Página 4 de 59
+Operação Essencial
+Para facilitar o aprendizado e navegação no sistema, a sua forma de operação (chamada de interface) segue
+um padrão visual, ou seja, todas as telas de cadastro possuem a mesma aparência e as mesmas funções.
+Exemplo de Cadastro Simples
+Comandos
+Ao lado direito do formulário são apresentados os botões de comando, que permitem realizar as operações de
+cadastramento, alteração e exclusão de registros. Cada botão de comando geralmente tem uma tecla de
+atalho associada. Procure utilizar sempre as teclas de atalho, para ganhar velocidade na operação do
+sistema.
+Adiciona um novo registro.
+Altera o registro atualmente selecionado.
+Exclui o registro atualmente selecionado.
+Quando um registro está sendo alterado ou incluído, realiza a gravação dos dados
+digitados e volta ao modo de consulta.
+Na mesma situação de alteração ou inclusão, descarta as alterações realizadas e volta
+ao modo de consulta.
+Fecha o formulário atual.
+Digitação
+O sistema converte todas as letras digitadas para maiúscula, estabelecendo assim um padrão de digitação.
+Para efeitos práticos, não existem diferenças para o sistema entre letras maiúsculas ou minúsculas, da
+mesma forma que o sistema ignora os acentos na realização das pesquisas.
+Mesmo assim, é importante definir junto aos operadores um padrão de digitação, pois as informações podem
+ser abreviadas de diferentes formas, gerando conflitos.
+
+-- 4 of 59 --
+
+AllegroNet – Módulo Administração Local Página 5 de 59
+Indicação de Datas ( Calendário automático )
+Os campos de datas do sistema permitem a seleção de datas pelo mouse, simplificando a
+escolha de uma data futura.
+Para utilizar este recurso, basta clicar sobre o botão e indicar a data desejada.
+Abre a seleção de datas
+Avança um mês
+Retrocede um mês
+Filtros de Pesquisa
+Nas telas de cadastros apresentadas em tabelas (parecidas com uma
+planilha do Excel), você consegue filtrar os dados conforme a informação
+selecionada em determinada coluna.
+Basta clicar no ícone sobre uma das colunas para listar os registros
+correspondentes; em seguida selecione um dos itens da lista para exibir
+todas as linhas que possuem o item correspondente.
+
+-- 5 of 59 --
+
+AllegroNet – Módulo Administração Local Página 6 de 59
+Visão Geral do Administração Local
+O módulo Administração Local permite que você gerencie os resultados e operações de sua empresa, controle
+a venda de seus serviços através dos mais diversos relatórios, controle suas contas e realize cadastros.
+Menu do Módulo Administração
+Cadastros
+No menu Cadastros você pode cadastrar Clientes, Fornecedores, Endereços e fazer Manutenção dos
+Cadastros.
+Marketing
+Nesta seção você encontra o Painel de Marketing. Esta ferramenta permite filtrar de diversas formas os
+registros de cadastro dos seus clientes, permitindo obter estatísticas, listagens e até enviar e-mails.
+Administração
+Neste menu você pode controlar todo o operacional da sua loja, lançar as notas fiscais de entrada e até
+efetuar pedidos de compra.
+Financeiro
+Em Financeiro você encontra o Painel Financeiro. Nele você pode efetuar lançamentos de gastos, contas
+pagas e a pagar, e ainda visualizar toda a movimentação do Atendimento de sua loja.
+Relatórios
+O menu Relatórios oferece os mais diversos relatórios para você gerenciar a movimentação e as vendas de sua
+loja.
+Configurações
+Neste menu você pode fazer as configurações do seu sistema .
+Para abrir o Administração Local, dê duplo clique sobre o ícone e aguarde. O sistema irá pedir a senha, digite
+o nome do operador e a senha. Pressione [F10] para confirmar o login.
+
+-- 6 of 59 --
+
+AllegroNet – Módulo Administração Local Página 7 de 59
+Menu Cadastros
+O Menu de Cadastros permite manipular os cadastros gerais do seu sistema. Os itens desse menu são:
+ Básicos – Permite cadastrar serviços, peças, justificativas e itens
+operacionais para o atendimento.
+ Operacionais - É nesse menu que você pode habilitar os
+cadastrados de observações e convênios pré-definidos pela
+matriz.
+ Financeiros – É nessa opção que você cadastra as formas de
+pagamento, categorias e contas financeiras.
+ Operadores – Nesta opção você cadastrar a senha de segurança
+dos Operadores e limitar o acesso ao sistema.
+ Clientes – Permite cadastrar e modificar os cadastros dos
+clientes.
+ Endereços de Clientes – Neste menu você pode fazer a
+manutenção dos endereços dos clientes.
+ Fornecedores – Cadastre os fornecedores de sua loja.
+ Associar Terceiro a Peças/Serviços – Permite associar os seus
+serviços a Terceiros.
+ Tabelas de Preço de Terceiros – Nesta tela você pode cadastrar os preços dos serviços terceirizados.
+ Loja - Nesta seção você pode cadastrar as informações da sua loja.
+Cadastros Básicos
+É neste menu que você cadastrará as informações básicas para a funcionalidade e integração da sua loja com
+o sistema. Na opção Básicos você encontra o cadastro de grupos, feriados, posições e parcerias.
+Grupos de Serviços
+O AllegroNet permite gerenciar os serviços por segmento (para separar os grupos por categoria de serviços
+como bordado, conserto, lavanderia e outros).
+É possível alterar as cores de cada grupo para melhor visualização dos serviços no Atendimento. Você
+também pode definir o destino de impressão para cada grupo, sendo assim você pode imprimir os tickets das
+peças de costura na mesma impressora do cliente, e o de lavanderia imprimir apenas na impressora de ticket
+lavável.
+Para alterar, na opção
+Básicos clique na opção
+Grupos de Serviços.
+Pressione [F2] para alterar
+o Destino Impressão Ticket
+da Peça ou a Cor Final dos
+Botões.
+Pressione [F10] para
+confirmar.
+
+-- 7 of 59 --
+
+AllegroNet – Módulo Administração Local Página 8 de 59
+Cadastrando os Feriados
+No menu Cadastro você pode cadastrar Feriados,
+assim quando registrar um ticket de serviço o
+sistema não permitirá programar a entrega para
+dias de feriados.
+Caso opte por trabalhar com o Controle de Horário
+do sistema, os dias de feriados cadastrados serão
+considerados como Abono.
+Pressione [F4], digite o dia e o mês, o ano pode ser
+deixado como 00 para feriados fixos como Natal e
+Ano Novo.
+Em seguida clique em Confirmar [F10].
+Cadastro de Grupo de Clientes
+O Grupo de Clientes permite agrupar os seus clientes por rota de delivery e associar com um coletor padrão.
+Para cadastrar os grupos no Administração Local, vá ao menu Cadastros, selecione a opção Básicos e clique
+em Grupos de Clientes.
+Pressione [F4] para cadastrar um novo grupo.
+Digite o nome do Grupo e selecione o Coletor
+Padrão. Para confirmar pressione a tecla [F10].
+Para alterar os grupos já cadastrados, selecione o
+grupo desejado e pressione [F2].
+Cadastros Financeiros
+Este menu permite cadastrar suas contas bancárias. O cadastro de contas permite que você gerencie as
+movimentações e transações de suas contas bancárias.
+Para cadastrar suas contas clique na opção Contas. Pressione [F4] para incluir e digite o nome da conta. Em
+seguida pressione [F10] para confirmar.
+Ao efetuar os lançamentos selecione a conta desejada para que, automaticamente, todas as transações
+efetuadas serão acrescidas ou retiradas da mesma.
+Caso não deseje controlar os lançamentos por contas, você pode utilizar a conta LOJA que já vem pré-
+cadastrada no sistema.
+
+-- 8 of 59 --
+
+AllegroNet – Módulo Administração Local Página 9 de 59
+Cadastros Definidos pela Matriz
+Para manter o padrão entre as nomenclaturas das formas de pagamento e convênios, a matriz se torna a
+responsável pelo cadastro, onde você define apenas qual se torna ativo no seu sistema.
+Manutenção de Formas de Pagamento
+As formas de Pagamento são definidas pela Matriz para manter o padrão na nomenclatura das Formas, porém
+você pode desativar as formas que não são utilizadas pela loja.
+No menu Cadastros, selecione a opção Definidos pela Matriz e clique em Formas de Pagamento.
+No campo Formas de Pagamento
+Ativas são as formas que irão aparecer
+no seu Atendimento, para desativar
+essas formas selecione a forma
+desejada e clique sobre o botão
+Desativar.
+Para ativar novamente essas formas
+desativadas, selecione a forma
+desejada no campo Formas de
+Pagamento Inativas e clique sobre o
+botão Ativar.
+Cadastrando as Taxas das Formas de Pagamento
+O sistema AllegroNet permite gerenciar o prazo e taxas administrativas de cada tipo de cartão aceito por sua
+empresa. Para cadastrar os prazos de crédito e taxas para as formas de pagamento no módulo Administração
+Local clique na opção Parâmetros de Formas de Pagamento.
+Na tela serão exibidas apenas as formas de pagamento ativas, para um melhor controle financeiro informe na
+coluna Crédito (Dias) o prazo de dias que essa forma será creditada para você, e na coluna Taxa adm. o
+valor da taxa descontada pela empresa administradora.
+Para confirmar pressione [F10].
+
+-- 9 of 59 --
+
+AllegroNet – Módulo Administração Local Página 10 de 59
+Convênios
+Um tipo particular de ação promocional útil para atrair novos clientes, é estabelecer convênios com grandes
+empresas e associações, oferecendo desconto aos funcionários e associados. No menu Cadastros, selecione a
+opção Definidos pela Matriz e clique em
+Convênios.
+No campo Convênios Ativas são o
+Convênio que irão aparecer no seu
+Atendimento, para desativar selecione o
+convênio desejado e clique sobre o
+botão Desativar.
+Para ativar novamente esses convênios
+desativados, selecione o item desejado
+no campo Convênios Inativo e clique
+sobre o botão Ativar.
+Cadastro de Operadores
+Para cadastrar a senha de acesso dos Operadores clique na opção Operadores. O sistema já vem com o
+operador TESTE pré-cadastrado com a senha 1234, se desejar você pode excluir pressionando [F8], antes
+cadastre uma senha para o seu uso.
+Para cadastrar um novo operador pressione [F4]. No campo Operador digite o login para ter acesso ao
+Administração, e no campo Nome Completo preencha com o nome completo do operador.
+No campo Senha e Confirmação Senha peça para o operador digitar a senha de acesso de 4 números.
+
+-- 10 of 59 --
+
+AllegroNet – Módulo Administração Local Página 11 de 59
+No campo Direitos de Acesso marque apenas as opções que o operador poderá ter acesso no Administração
+Locl e Atendimento.
+Na aba Administração marque as opções que o operador terá acesso:
+ Financeiro: acesso ao menu Financeiro e menu relatórios, opção Financeiro
+ Administração: acesso ao menu Administração, não tem acesso a Troca de
+Executor
+ Segurança: acesso ao Cadastro de Operador
+ Painel de Controle: acesso ao menu Segurança
+ Trocar Executor: acesso a opção Troca de Executor no menu Administração
+ Marketing: acesso ao menu Marketing
+ Relatórios: acesso ao menu Relatórios, não tem acesso aos relatórios Financeiro.
+Na aba Atendimento marque as funções que o operador terá acesso no módulo Atendimento:
+ Atendimento: acesso as funções gerais do
+Atendimento como venda de serviços,
+disponibilizar e entregar.
+ Anulação: permite anular os tickets
+ Leitura X: acesso a função do [CTRL+X]
+Leitura X
+ Redução Z: acesso a tela do [CTRL+Z]
+Redução Z
+ Rotinas TEF: acesso as funções
+administrativas do TEF
+ Nota Fiscal Eletrônica de Serviço: acesso ao Gerador de RPS
+ Movimentação de Caixa: acesso a tela do [CTRL+M] Movimentar Caixa
+ Reimpressão de Ticket: acesso ao [F9] Reemitir
+ Botão Abre Gaveta: acesso ao botão [F12] Abrir Gaveta
+ Relatórios: acesso aos relatórios disponíveis no Atendimento
+ Imprime tabela de preço CTRL+P: acesso ao botão imprimir da consulta de tabela de preços
+ Gerencia Descontos Padrão Cliente, Convênio e Faturado: permite alterar o desconto padrão, convênio e
+condição de faturamento no cadastro do cliente
+ Acesso baixa faturamento CTRL+F: acesso a baixa de pagamento dos tickets dos clientes faturados
+Na guia Funções você define as funções operacionais desse
+operador. Marque a opção Coleta para informar que esse operador
+é um coletor/entregador de delivery, a opção Executa informa que
+esse operador é um executor de serviços e a opção Vende para informar que ele é o vendedor que fez a
+venda do produto/serviço para o cliente. É também nesta aba que você define a porcentagem de comissão
+para cada serviço ou venda de produto.
+Em Desconto (%) você informa a porcentagem máxima que esse
+operador poderá dar de desconto no Atendimento sobre a venda
+de serviços ou produtos. Marque a opção Cortesia para permitir
+que o operador faça uma venda com 100% de cortesia.
+No campo Horários digite o horário de Entrada e Saída, e o tempo de Intervalo
+para almoço ou lanche, por exemplo. Esse horário irá influenciar na carga
+horária do fechamento de entrada e saída de operadores (controle de ponto).
+
+-- 11 of 59 --
+
+AllegroNet – Módulo Administração Local Página 12 de 59
+Na aba Dados Pessoais você pode cadastrar as
+informações pessoais do Operador como endereço,
+documentos, função e dados da carteira profissional.
+Para confirmar o cadastro do Operador pressione
+[F10].
+Cadastro de Clientes
+Nesta tela você pode acessar os dados dos clientes, em uma tela mais completa que permite completar as
+informações que já foram coletadas no balcão.
+Na parte superior esquerda da tela de clientes está a área de filtros, utilizada para
+trazer apenas um conjunto de cliente, ou um cliente especifico.
+Para realizar uma pesquisa digite as primeiras letras do nome do cliente, e-mail ou
+seu telefone. Clique no botão Pesquisar [F3] para apresentar os resultados na lista.
+Não se preocupe com a acentuação em sua pesquisa. O AllegroNET não diferencia as letras acentuadas para
+pesquisa. Por exemplo, se você digitar “Angela” em uma pesquisa, tantos as ocorrências de “Ângela”, com
+acento e “Angela” sem acento serão localizadas.
+Para cadastrar um novo cliente pressione [F4], ou para fazer alterações em seu cadastro pressione [F2].
+Nesta tela você pode excluir o cadastro do cliente selecionando nome desejado e clicando em Excluir [F8].
+
+-- 12 of 59 --
+
+AllegroNet – Módulo Administração Local Página 13 de 59
+Digite o nome e telefones do cliente. Abaixo você pode
+preencher com informações relacionadas ao Marketing
+do cliente como Data de Nascimento, Sexo e E-Mail
+O campo Código é o código interno do cliente. O sistema pode ser configurado para localizar o cliente por
+este código ao invés do número de telefone. Assim, você pode implantar o programa de fidelização e
+distribuir cartões onde esteja impresso o número do cliente (que também pode ser representado por um
+código de barras).
+O Ranking identifica o nível de fidelidade ou o grau de importância do seu cliente.
+O Convênio permite informar a que convênio este cliente pertence e consequentemente o desconto padrão
+que irá receber automaticamente em suas compras. No campo Dsc Padrão permite cadastrar um desconto
+padrão para o cliente independente se tem convênio ou não.
+No campo Forma de Conhecimento você define o meio de comunicação que trouxe o cliente até a sua loja.
+Em e-mail digite o endereço eletrônico do cliente, caso ele não desejar receber e-mails
+promocionais marque a opção Não enviar E-mail.
+Complete o endereço do cliente, ao digitar o
+número do CEP o sistema preenche
+automaticamente com as informações do Endereço.
+Completando as informações residenciais do cliente, o sistema permitirá visualizar estatísticas de bairro,
+cidade, rua e ainda imprimir etiquetas para Mala Direta.
+A tela de cadastro oferece campos com
+Informações Extras para conhecer melhor o
+seu cliente.
+Gerencie melhor o seu Delivery registrando
+informações como Referência do Endereço,
+o Código do Guia (mapa). No campo Grupo
+de Delivery você pode separar os seus
+clientes por bairro ou motorista, se for um cliente que assiduamente necessita de coleta, programe suas
+coletas marcando o dia especifico da semana.
+No campo Possui Faturamento (Mensalista) informe se o cliente é mensalista ou não, ou seja, irá pagar
+mensalmente pelos. No campo Convênio você pode definir um convênio padrão para esse cliente, assim
+sempre quando realizar uma venda o sistema automaticamente irá conceder o seu desconto do convênio.
+Se o cliente for de um de seus colaboradores, selecione o seu nome no campo
+Funcionário/Cliente, dessa forma permitirá visualizar todos os seus tickets junto
+com as movimentações de caixa realizadas em seu cadastro permitindo gerar um
+recibo de pagamento.
+E no campo Observação, você pode escrever qualquer observação sobre o cliente. Essas informações ficarão
+visíveis no Atendimento e não serão impressas no ticket.
+
+-- 13 of 59 --
+
+AllegroNet – Módulo Administração Local Página 14 de 59
+Endereço de Clientes
+O menu Endereços permite padronizar os endereços digitados no cadastro do cliente ou cadastrar novos
+CEP´s.
+Manutenção de Endereço em Massa
+A Manutenção em Massa permite padronizar os endereços do cliente permitindo assim ter um melhor
+resultado nos relatórios de Estatística por Bairro, Rua e até mesmo para o relatório de Deliverieis.
+No campo Filtros de Pesquisa
+informe o campo de endereço
+ou grupo que deseja pesquisar
+para a unificação e
+padronização.
+Clique no botão [F3]
+Pesquisar. Abaixo irá listar
+todos os registros
+encontrados.
+No campo Padrões informe o
+valor para qual os endereços
+listados serão corrigidos.
+No exemplo ao lado, todos os
+moradores da Av. Anchieta
+terão o CEP alterado para
+13015-903.
+Marque todos e pressione o
+botão [F10] Confirmar.
+Cadastro de CEP
+O sistema AllegroNet já oferece uma base de CEP´s do Correios atualizada com os endereços até o ano de
+2010. No Atendimento após digitar o CEP, o sistema preenche as informações de Endereço do Cliente, porém
+em alguns casos o endereço pode não existir, e para manter um cadastro sempre atualizado você pode fazer
+a manutenção acessando o Cadastro de CEP.
+Clique no botão [F4] Incluir, digite o CEP,
+Tipo, Endereço, Complemento se tiver e
+Bairro.
+Para confirmar pressione [F10] Confirmar.
+
+-- 14 of 59 --
+
+AllegroNet – Módulo Administração Local Página 15 de 59
+Fornecedores
+O cadastro de Fornecedores permite cadastrar as empresas prestadoras de serviços da sua loja ou um
+fornecedor de produto/insumo. Para cadastrar um novo fornecedor pressione [F4], e digite os dados da
+pessoa ou empresa.
+Para informar que essa
+empresa estará fazendo
+parceria com a sua marque a
+opção Representante.
+Para informar ao sistema que
+esta empresa faz serviços
+terceirizados, marque a
+opção Terceiro.
+Se o Terceiro trabalha com
+Lacre, marque a opção Exige
+Lacre, se o lacre for
+alfanumérico marque a
+opção Lacre Numérico.
+Cada conta que você
+registrar no Painel Financeiro
+necessita de um fornecedor
+ou empresa relacionada
+utilize está opção para
+cadastrá-las. Marque a opção
+Exibe Histórico Financeiro para informar as movimentações dessa empresa no Painel Financeiro.
+Para informar que essa empresa é apenas um fornecedor de produtos ou insumos marque a opção Fornece
+Produtos e Insumos.
+Pressione [F10] para confirmar o cadastro.
+Associando os Terceiros a Peças e Serviços
+Ao registrar um serviço relacionado com o Terceiro no
+Atendimento, automaticamente essa peça irá aparecer na
+tela de Envio de Serviços para Terceiros; dessa forma não
+haverá a necessidade de identificar primeiro o ticket para
+fazer o envio.
+Para associar um serviço ao Terceiro, no menu Cadastros
+clique na opção Associar Terceiro a Peça/Serviço.
+Na coluna Terceiro selecione a empresa desejada para os
+serviços e peças correspondentes.
+Para confirmar pressione [F10].
+
+-- 15 of 59 --
+
+AllegroNet – Módulo Administração Local Página 16 de 59
+Tabela de Preço de Terceiros
+Depois de associar os serviços com os Terceiros o próximo passo é registrar os preços e prazo de devolução do
+serviço. Para cadastrar os preços de cada terceirizado clique na opção Tabelas de Preços de Terceiros.
+O sistema irá listar todos os serviços vinculados ao Terceiro selecionado. No campo Valor digite o preço
+cobrado pelo Terceiro, no campo Tipo de Preço selecione Valor ou Percentual (referente ao pagamento do
+Terceiro) e no campo Prazo digite quantos dias o Terceiro demora a entregar o serviço pronto
+Para adicionar uma peça e um serviço clique no botão . Selecione a Peça e o Serviço desejado e pressione
+[F10] para confirmar.
+Cadastrando as Informações da Loja
+Para cadastrar as informações referente à loja e que serão impressas no ticket do cliente vá ao menu
+Cadastros e clique na opção Loja. Para alterar pressione [F2], digite o nome da sua loja que será emitido no
+ticket. Preencha os outros dados como endereço e telefone.
+No campo Horário digite o horário de Abertura e Fechamento da loja. Se você abre a sua loja ao Sabádo e/ou
+Domingo, apenas digite o horário de Abertura e Fechamento.
+
+-- 16 of 59 --
+
+AllegroNet – Módulo Administração Local Página 17 de 59
+No campo Msg. Serviços digite a mensagem a ser impressa no rodapé do Ticket de Serviços do cliente. É
+possível também cadastrar uma mensagem de rodapé para o ticket de venda de produtos no campo Msg.
+Produtos e mensagem de rodapé para ticket de orçamento na guia Msg. Orçamentos.
+Para confirmar a alteração clique em Confirmar [F10].
+
+-- 17 of 59 --
+
+AllegroNet – Módulo Administração Local Página 18 de 59
+Menu Marketing
+O Menu Marketing contém os recursos para você conhecer melhor sua base de clientes, definir e analisar o
+ranking, gerenciar as interações com os clientes, unificar e excluir cadastros.
+Exclusão Lógica de Clientes em Massa
+Após uma campanha de atualização de dados e de recuperação de clientes inativos, vale à pena eliminar do
+seu cadastro os registros de clientes mais antigos. A Exclusão Lógica de Clientes em Massa irá apenas
+desativar o cadastro do cliente reduzindo assim a lista de resultados nas telas de pesquisa do Atendimento, o
+nome continuará aparecendo apenas ao consultar um ticket.
+Para excluir os clientes clique no menu Exclusão em Massa de Clientes e em seguida clique em Exclusão
+Lógica (Desativa os Clientes).
+Defina até que data você considera o seu cliente como inativo ou
+perdido e digite no campo Data de Última Visita e clique no botão
+[F10] Confirmar.
+O sistema irá inativar todos os clientes que não foram mais na sua
+loja da inauguração até a data informada desde que não possuam
+tickets ou pagamentos pendentes.
+Marcando a opção Não Remover Cliente com Cartão Fidelidade
+não irá apagar os cadastros de clientes que possuem código de
+barras.
+Exclusão Física de Clientes em Massa
+A Exclusão Física de Clientes em Massa irá apagar do banco de dados os cadastros dos clientes e
+movimentações de tickets reduzindo assim o tamanho do banco de dados, sendo assim as informações não
+existirão mais no sistema.
+Para excluir clique no menu Exclusão em Massa de Clientes e em
+seguida clique em Exclusão Física (Remove Clientes e Tickets).
+Defina até que data você considera o seu cliente como inativo ou
+perdido para exclusão do histórico e digite no campo Data de
+Última Visita e clique no botão [F10] Confirmar.
+O sistema irá pagar todos os clientes que não foram mais na sua
+loja da inauguração até a data informada e o histórico dos tickets
+entregues e anulado.
+Marcando a opção Não Remover Cliente com Cartão Fidelidade
+não irá apagar os cadastros de clientes que possuem código de
+barras.
+
+-- 18 of 59 --
+
+AllegroNet – Módulo Administração Local Página 19 de 59
+Unificação de Cadastros de Clientes
+Ao longo do tempo de uso do sistema, certos clientes podem apresentar cadastros duplicados, por informar
+números de telefone incorretos ou diferentes. Para unificar o histórico de tickets no menu Marketing clique
+na opção Unificação de Cadastros de Clientes.
+Localize os cadastros filtrando pelo Nome, Telefone ou Código de Barras. Digite a informação no campo ao
+lado e clique no botão [F3] Pesquisar. O sistema Allegro.Net listará todos os cadastros idênticos conforme a
+informação solicitada: nome, telefone ou código de barras.
+Selecione o cadastro que será mantido e clique no botão para enviar o nome selecionado para o campo
+Cadastro Principal (Cadastro que ficará ativo). Os outros cadastros encontrados serão automaticamente
+listados no campo Cadastro(s) a Excluir, marque todos os cadastros que deseja unificar.
+Para cancelar o
+nome
+selecionado
+para o cadastro
+principal clique
+no botão .
+Para confirmar
+a Unificação
+clique no botão
+[F10]
+Confirmar.
+Definir Ranking
+Classificar seus clientes conforme o seu faturamento, frequência ou volume de peças é uma estratégia
+importante, porque permite identificar no momento do atendimento quem são os clientes mais importantes,
+e também porque permite ações de marketing diferenciadas.
+No campo Critério de classificação informe a variável a ser utilizada
+como base de calculo para classificação dos clientes:
+ Faturamento: valor de faturamento do ticket
+ Frequência: quantidade de visitas à loja ou quantidade de tickets
+emitidos
+ Volume: quantidade de peças
+A tabela de valores permite definir quais são os intervalos para cada
+ranking. Defina o critério para cada grupo informando o valor na coluna
+Ate. Depois de estabelecer seus critérios de classificação, clique no botão
+[F10] Confirmar para gravar e atualizar o ranking no cadastro do cliente.
+O Ranking é calculado diariamente durante a abertura do Atendimento.
+
+-- 19 of 59 --
+
+AllegroNet – Módulo Administração Local Página 20 de 59
+Painel de Marketing
+O painel de marketing é uma ferramenta elaborada para substituir as diversas opções de relatórios e
+consultas. Em apenas três passos você realiza uma ação de marketing, ou obtém as informações que desejar.
+Para abrir clique no menu Marketing e em seguida clique em Painel de Marketing.
+Passo 1: Edição de Filtros
+Aqui se define o perfil do seu cliente, através dos diversos filtros disponíveis. É possível contar o número de
+clientes que serão retornados pela busca. Marque à esquerda o filtro desejado para a pesquisa, para habilitar
+o campo de filtro desejado.
+Clicando sobre o botão Totalizar [Alt + Z] você pode conferir quantos clientes se enquadram no perfil. Em
+seguida clique em Avançar [Ctrl+M] para exibir os clientes encontrados.
+
+-- 20 of 59 --
+
+AllegroNet – Módulo Administração Local Página 21 de 59
+Filtros relevantes do Painel de Marketing
+Tipo Seleção de pessoas físicas e jurídicas
+Forma de Conhecimento Filtra apenas os clientes que vieram de uma determinada fonte
+Ranking0 Filtra apenas os clientes de um determinado ranking de A a E, ou X que
+representa os clientes que não foram classificados.
+Sexo Este filtro permite separar os seus clientes por sexo masculino ou
+feminino.
+Aniversário Liste os aniversariantes do mês.
+Dia do Aniversário Lista apenas os aniversariantes de determinado dia/mês.
+CEP Envie mala direta para clientes que residem em determinada faixa de
+cep´s.
+Compl./Bairro/Cidade/UF Este filtro permite filtrar os clientes que residem em determinado
+endereço, bairro, cidade ou estado.
+Cadastramento Permite selecionar os clientes pela data de sua primeira visita. Use para
+identificar os clientes mais novos ou mais antigos da loja
+Última Visita Permite identificar clientes ativos ( que visitaram recentemente a loja )
+ou clientes perdidos ( que há muito não vêm à loja )
+Intervalo de dias entre as
+últimas visitas superior à
+Filtre os clientes conforme o intervalo entre cada visita.
+Por Exemplo: Clientes que visitam a loja pelo menos a cada 30 dias, ou
+seja, uma vez por mês.
+Último Ticket Cliente Este filtro permite selecionar os clientes que visitaram sua loja em
+determinado período, é utilizado como base à data de emissão do ticket.
+Curva ABC
+Permite selecionar um grupo bastante específico de clientes, de acordo
+com um critério (faturamento, frequência ou quantidade de peças) em um
+período.
+Por exemplo: todos os clientes que tiveram o faturamento no período de
+01/01 a 31/03 de R$ 500 a R$1.000.000 ( portanto, todos os clientes que
+tiveram o faturamento superior a 500 reais )
+Convênio Selecione os clientes de utilizaram convênio dentro de determinado
+período.
+Grupo Filtre os clientes que pertencem a um grupo de delivery.
+E-Mail Seleção dos clientes que possuem e-mail cadastrado ou não.
+Cartão Fidelidade Liste os clientes que possuem ou não código no Atendimento.
+Desconto Padrão Este filtro permite filtrar os clientes que possuem desconto padrão.
+Grupo de Serviços Comprados
+e Não Comprados
+Este filtro permite listar os clientes que compraram ou não um serviço de
+determinado grupo em sua loja.
+Por Exemplo: listar todos os clientes que utilizaram serviços do grupo
+TINGIMENTO no período de 01/01 a 31/03
+Família de Peças Compradas e
+Não Compradas
+Filtre os clientes que levaram ou não uma peça de determinada Família
+para execução de serviços.
+Por Exemplo: listar todos os clientes que levaram peças da Família TAPETE
+no período de 01/01 a 31/03
+Grupo de Produtos Comprados
+e Não Comprados
+Permite filtrar os clientes que costumam comprar um determinado
+produto ou que nunca compraram.
+Por Exemplo: listar todos os clientes que compraram o Produto amaciante
+de couro no período de 01/01 a 31/03
+
+-- 21 of 59 --
+
+AllegroNet – Módulo Administração Local Página 22 de 59
+Passo 2: Edição de Registros
+Esta tela permite revisar quais são os clientes filtrados. Muitas vezes existem clientes de simulação interna,
+ou clientes que atendam aos critérios que você estabeleceu, mas que por outras razões não sejam de
+interesse para a ação que você planeja. Assim, você pode acrescentar ou retirar individualmente os clientes
+desta lista, marcando ou desmarcando-os na coluna OK.
+Marca todos os registros que foram filtrados para uso nas ações de marketing.
+Desmarca todos os registros.
+Após marcar os clientes filtrados clique no botão Avançar [CTRL+M] para selecionar o tipo de Ação de
+Marketing.
+
+-- 22 of 59 --
+
+AllegroNet – Módulo Administração Local Página 23 de 59
+Passo 3: Ações de Marketing
+Até agora, definimos quais são os clientes. É hora de agir! Uma campanha de recuperação de clientes, saber
+onde estão os melhores clientes, completar o cadastro dos clientes de Rankings A e B... A escolha é sua.
+Existem quatro funções principais na tela de ações: Impressos, Estatísticas, envio de e-Mails e exportação de
+arquivos.
+
+-- 23 of 59 --
+
+AllegroNet – Módulo Administração Local Página 24 de 59
+Impressos
+Esta opção contém os diversos modelos de Listagens de endereço e/ou telefone, fichas e etiquetas para
+correspondência.
+As Etiquetas possibilitam o envio de mala-direta. A ficha de clientes torna possível uma ação de
+contato por telefone para completar os dados de cadastro do cliente.
+Estatísticas
+Use as estatísticas para medir a distribuição dos clientes selecionados.
+Você pode ter estatísticas por vários campos:
+ Rua
+ Bairro
+ Cidade
+ Estado
+ Cadastramento (idade do cliente na loja)
+ Última visita
+ Forma de conhecimento
+ Idade
+ Ranking
+ Sexo
+Exemplo de estatística, onde abaixo do gráfico é
+apresentada a relação com os resultados.
+
+-- 24 of 59 --
+
+AllegroNet – Módulo Administração Local Página 25 de 59
+Envio de E-Mails em Massa
+Este recurso permite enviar uma mensagem a todas as pessoas selecionadas no painel de marketing, em uma
+conexão direta com o servidor SMTP. Isto significa um envio mais rápido de mensagens, que não requer um
+programa especial de envio de mensagens.
+É possível também anexar imagens na mensagem. Mas novamente alertamos para o envio de mensagens
+curtas, com o menor tamanho possível. Sempre coloque em seu texto um comentário ou uma opção que
+permita ao cliente optar por não receber novas correspondências promocionais por e-mail.
+Cria um novo arquivo html, também permite salvar ou abrir um já existente.
+Corretor ortográfico.
+Cria um link no texto. Ao clicar sobre permite redirecionar a uma página de
+internet.
+Recorta, copie ou cola um texto.
+Anexa imagem no corpo da mensagem.
+Formatação da fonte: estilo, tamanho e cores.
+Formatação da fonte: negrito, itálico e sublinhado.
+Alinhamento do texto
+Anexa um documento no e-mail
+
+-- 25 of 59 --
+
+AllegroNet – Módulo Administração Local Página 26 de 59
+Digite o conteúdo de sua mensagem e clique em confirmar [F10] para iniciar o envio de suas mensagens.
+Configuração de E-mail
+Para configurar o endereço de envio de e-mails no Administração Local clique no menu Configurações e em
+seguida clique em Gerais. Assim que abrir a tela, entre na aba Marketing.
+Na opção Parâmetros Servidor E-Mail, é onde deverá ser configurado o e-mail da loja, conforme parâmetros
+do seu servidor de e-mail. Serão solicitadas as seguintes informações:
+Servidor SMTP: Esse é o servidor do seu provedor de e-mail.
+E-mail Remetente: O E-mail da loja
+Senha E-mail Remetente: Senha do e-mail.
+Porta: É a porta do provedor do e-mail
+Servidor Exige Autenticação e Servidor possui Criptografia SSL
+deverão ser marcadas, caso o provedor possua essas opções.
+Exportação de arquivo texto
+Certas ações de marketing e acordos podem exigir que você envie informações para terceiros ou outros
+programas. Esta tela permite que você, após uma seleção de registros em seu painel de marketing, exporte
+os dados em um formato de texto.
+Algumas aplicações:
+ Troca de mailing com um parceiro
+ Emissão de cartões de fidelidade
+ Uso de programas de e-mail marketing
+ Ações de marketing consolidadas entre várias lojas de uma rede.
+ Envio de dados para empresas de telemarketing ou de mala direta.
+ Exportação de dados para permitir serviços online em seu website
+O delimitador é o símbolo que será usado para
+separar cada um dos campos do seu arquivo. As
+formas de separação mais comuns são por ponto-
+e-vírgula e por tabulações.
+Após selecionar o formato e o delimitador, clique
+sobre o botão Confirmar ou pressione a tecla
+[F10] para gravar o arquivo. O AllegroNet pede o
+local de gravação e o nome do documento,
+acrescentando automaticamente a extensão txt
+ao nome do arquivo.
+
+-- 26 of 59 --
+
+AllegroNet – Módulo Administração Local Página 27 de 59
+Preferência por Cliente
+Investir na relação com o cliente, permitindo que ele diga como prefere ser atendido tem um efeito poderoso
+de fidelização: quanto mais seu atendimento for personalizado mais caro será para o cliente mudar de
+fornecedor, pelo simples fato de que ele terá de ensinar ao outro fornecedor como trabalhar do jeitinho que
+ele gosta. Consequentemente reduz a importância do fator preço: “aqui é um pouco mais caro, mas a
+qualidade do serviço e o atendimento personalizado compensam”.
+Assim, quando houver variações na forma de atendimento do cliente para a prestação de serviços, procure
+descobrir a forma que mais agrada a cada cliente, e registre-a no sistema. Por exemplo, um cliente diz
+preferir que suas camisas fossem entregues dobradas ao invés de em um cabide. Registrando esta preferência
+( cliente x – serviço camisa – preferência dobrada ) em um segundo atendimento, ao entregar suas camisas
+para tratamento, um outro atendente perguntaria “deseja que suas camisas sejam dobradas como de
+costume, senhor X?” – Pequenos detalhes que fazem toda a diferença.
+Para cadastrar a preferência do cliente sobre cada peça e serviço clique no menu Marketing e em seguida
+Preferência por Cliente.
+Localize o cadastro do cliente, ao lado marque a Peça/Serviço e no campo Observação (Preferência)
+selecione a preferência e clique no botão [F5] Atualizar.
+Caso a preferência não existir na lista de Observações clique no botão para fazer um novo cadastro. Para
+finalizar pressione [F10] Confirmar.
+No Atendimento ao selecionar a Peça Agasalho de Lã com o serviço Lavagem, o sistema irá marcar a
+automaticamente a observação DOBRADO.
+
+-- 27 of 59 --
+
+AllegroNet – Módulo Administração Local Página 28 de 59
+Envio de E-Mail em Massa dos Serviços Disponíveis
+O menu Envio de E-Mail dos Serviços Disponíveis permite comunicar o cliente por e-mail informando que os
+serviços deixados estão prontos para retirada na loja.
+Filtre se deseja enviar e-mail apenas para aqueles que
+estão com os serviços prontos (SOMENTE TICKETS
+DISPONÍVEIS) ou para todos os tickets.
+Informe o período da produção. Abaixo você pode
+digitar um cabeçalho e rodapé do corpo de e-mail.
+Para confirmar o envio clique no botão [F10] Enviar.
+
+-- 28 of 59 --
+
+AllegroNet – Módulo Administração Local Página 29 de 59
+Menu Administração
+O menu Administração permite gerenciar as operações de sua empresa, controlar o estoque de seus produtos
+e gerenciar os operadores.
+Fechamento de Comissões
+No Fechamento de Comissões é possível verificar as comissões de determinado operador para fazer seu
+respectivo pagamento. Para fechar as comissões vá ao menu Administração, selecione Operadores e clique na
+opção Fechamento de Comissões.
+Selecione o Operador, e o período desejado nos campos De e Até. Pressione [F3] para localizar as comissões.
+Abaixo, o sistema irá listar todas as comissões do operador dentro do período selecionado.
+Selecione as comissões desejadas na coluna OK para confirmar, ou clique no botão Marcar Todos para marcar
+todas as comissões. No campo Valor Total você visualiza o valor total das comissões a serem pagas conforme
+o período pesquisado, e no campo Valor Selecionado exibe o valor total apenas das comissões selecionadas.
+Os campos Qtd Serviço e Qtd Produto mostram a quantidades de peças e produtos produzidos por este
+operador em questão.
+No campo Dados para Pagamento, você pode gerenciar em qual conta essa conta irá entrar no Financeiro, a
+data e se já foi pago para o Operador ou não. No campo selecione a Conta Débito na qual será debitado esse
+valor, e a Data.
+Para informar que você já está pagando essa comissão para o operador, marque a opção Já Lança Como
+Pago? e informe a Forma de Pagamento. Caso você não marque essa opção, o sistema irá apenas programar
+a data de vencimento desse pagamento para você efetuar mais tarde. Para finalizar e confirmar as comissões
+pressione [F10].
+
+-- 29 of 59 --
+
+AllegroNet – Módulo Administração Local Página 30 de 59
+Ao finalizar o sistema irá emitir uma mensagem perguntando
+se deseja gerar o relatório com as comissões.
+Clique em SIM para processar o relatório, ou NÃO para não
+processar. Posteriormente, você poderá visualizar o mesmo
+relatório das comissões através do menu Relatórios.
+Modelo do relatório de Comissões impresso no Fechamento de Comissões
+Fechamento de Entrada e Saída de Operadores
+Após registrar os horários de entrada e saída no Atendimento, é necessário fazer a conferência dos horários
+para fazer o fechamento da folha de ponto. Para isso no menu Administração selecione Operadores e clique
+na opção Fechamento de Entrada e Saída.
+Selecione o mês, ano e o nome do operador desejado. Clique em [F3] Pesquisar para listar todas as entradas
+e saídas registradas pelo operador, e também os domingos e feriados do respectivo mês.
+Nas colunas Entrada1, Saída 1, Entrada 2 e Saída 2 confira se os horários estão corretos. As colunas Entrada 3,
+Saída 3, Entrada 4 e Saída 4 permitem visualizar os horários que foram registrados mais de uma vez no
+Atendimento, por exemplo: saída e retorno do lanche.
+
+-- 30 of 59 --
+
+AllegroNet – Módulo Administração Local Página 31 de 59
+O campo Saldo exibe o
+saldo do banco de horas
+em minutos. Para abonar
+uma falta marque a opção
+Abona, e no campo
+Observação digite a
+justificativa do abono.
+Marque apenas os dias
+que serão confirmados na
+coluna OK. Para
+confirmar a alteração
+pressione [F10].
+Troca de Executor
+Caso disponibilizar o serviço para o executor errado é possível corrigir, dessa forma a comissão de produção
+não irá para o executor errado. Para corrigir clique no menu Administração, selecione Operadores e clique
+em Troca de Executor.
+Localize pelo número do Ticket e clique no botão [F3] Pesquisar. Na coluna Executor selecione o nome
+correto do Executor que fez o serviço, digite a Justificativa e em seguida clique no botão [F10] Confirmar.
+
+-- 31 of 59 --
+
+AllegroNet – Módulo Administração Local Página 32 de 59
+Pedidos de Compra
+Para manter um melhor controle nas compras de seus produtos ou insumos o sistema AllegroNet permite
+registrar os seus pedidos de compras. Para cadastrar um pedido de compra selecione o menu Administração e
+clique na opção Pedidos de Compra.
+Você pode selecionar um pedido já existente ou fazer um novo pedido, basta selecionar a opção desejada no
+campo Pedido de Compra, em seguida selecione o fornecedor dos produtos ou insumos. Em Data Entrega
+especifique a data que foi combinada com o fornecedor para entregar o seu pedido.
+No campo Grupo selecione o grupo dos produtos ou insumos. Para listar o produto ou insumo desejado basta
+digitar o código no campo Código de Barras ou selecionar o item no campo Produto/Insumo.
+Na coluna Qtde digite a quantidade de produtos/insumos a serem entregues, e no campo $ Unit. o valor
+unitário do produto. Em $ Desc. Unit. você pode informar o valor de desconto que você obteve sobre cada
+item. Abaixo o sistema irá informar o total de produtos que constam no pedido e o valor final.
+É possível também incluir os Produtos/Insumos através
+de um leitor de código de barras através do botão .
+Faça a leitura do código e pressione [F3] Pesquisar,
+informe a quantidade e valores e em seguida pressione
+[F10] Confirmar.
+Para confirmar o pedido de compra pressione [F10].
+
+-- 32 of 59 --
+
+AllegroNet – Módulo Administração Local Página 33 de 59
+Notas Fiscais de Entrada
+Para dar entrada no estoque de produtos ou insumos você precisa lançar uma nota de entrada dos produtos,
+ou registrar a nota fiscal do seu fornecedor. Para lançar uma nota de entrada clique na opção Notas Fiscais
+de Entrada.
+No campo Pedido de Compra você pode especificar se você irá confirmar a entrada de um pedido de compra
+já feito ou não. Selecionando um pedido de compra já cadastrado o sistema irá listar abaixo todos os
+produtos ou insumos pedidos; ou para dar entrada em uma nota que não possui pedido selecione a opção
+(NOVO). No caso de uma nota sem pedido, selecione o Fornecedor desejado.
+No campo Número você pode informar o número da Nota Fiscal e no campo Data Chegada à data de entrada
+dos produtos/insumos.
+Você pode registrar todas as informações da nota como valor de ICMS e IPI. No campo Validade informe a
+data de validade desses novos produtos/insumos. As colunas $Lucro e %Lucro informa o valor e percentual
+do seu lucro sobre o valor de venda de cada produto.
+Abaixo você pode visualizar o total de produtos que entrará, valor e valor total de IPI. No campo Frete digite
+o valor do frete caso seja você o pagador, ou seja, quando o valor é acrescido na nota.
+No campo Conta de Pagamento selecione para qual conta o pagamento dessa nota deverá entrar. Abaixo
+informe a data de vencimento da nota e valor, se for mais de uma parcela especifique abaixo as datas de
+vencimento e valores das parcelas.
+
+-- 33 of 59 --
+
+AllegroNet – Módulo Administração Local Página 34 de 59
+É possível também incluir os Produtos/Insumos através de um
+leitor de código de barras através do botão .
+Faça a leitura do código e pressione [F3] Pesquisar, informe a
+quantidade e valores e em seguida pressione [F10] Confirmar.
+Para confirmar pressione [F10].
+Ajustes e Quebra de Estoque
+Para fazer o ajuste do estoque dos produtos ou insumos clique no menu Administração, selecione Ajustes de
+Estoque e clique na opção Ajustes/Quebra de Estoque. Você pode listar todos os produtos/insumos de um
+determinado grupo ou pesquisar pelo código de barras.
+Para pesquisar todos os produtos de um determinado grupo selecione no campo Grupo, no campo Código de
+Barras informe o código do produto. Para localizar clique no botão [F3] Pesquisar.
+A coluna Est. Real informa o estoque total contabilizado no sistema, qualquer diferença em relação com o
+estoque físico digite a quantidade correta na coluna Est. Real.
+É possível controlar o estoque de frente ou de locais diferentes. Na coluna Local Estq informe o local onde os
+produtos foram deixados para venda e em Local Ret. informe o local onde o produto está guardado. Em Est.
+Frente Real digite o total de produtos disponibilizados na vitrine ou frente de loja.
+No campo Observação Quebra informe o motivo da quebra ou ajuste do estoque. Para confirmar a alteração
+pressione [F10].
+
+-- 34 of 59 --
+
+AllegroNet – Módulo Administração Local Página 35 de 59
+Ajustes Estoque Mínimo e Máximo
+O Estoque Mínimo e Máximo dos produtos permite controlar quais produtos estão abaixo do estoque mínimo
+permitindo gerenciar melhor as compras dos produtos e insumos. O ajuste do estoque máximo e mínimo pode
+ser cadastrado no menu Cadastros, opção Básicos, clique em Cadastro de Produtos.
+Localize o cadastro do produto desejado e clique no botão [F2] Alterar. Digite os
+valores nos campos Est. Mín e Est. Max. Pressione [F10] para Confirmar.
+O cadastro do estoque mínimo e máximo também pode ser feito em massa no menu Administração, opção
+Ajustes de Estoque e clique na opção Ajuste de Estoque Máximo e Mínimo. Você pode listar todos os
+produtos/insumos de um determinado grupo ou pesquisar pelo código de barras.
+Para pesquisar todos os produtos de um determinado grupo selecione no campo Grupo, no campo Código de
+Barras informe o código do produto. Para localizar clique no botão [F3] Pesquisar.
+Digite os valores nas colunas Aju. Mín e Aju. Máx, marque na coluna OK os produtos alterados e clique no
+botão [F10] Confirmar.
+
+-- 35 of 59 --
+
+AllegroNet – Módulo Administração Local Página 36 de 59
+Ajustes de Locais de Estoque
+Os Locais de Estoque permite gerenciar os locais da sua loja onde os produtos/insumos ficam armazenados.
+Para ajustar em massa os locais de estoque clique no menu Administração, opção Ajustes de Estoque e clique
+na opção Ajustes de Locais de Estoque.
+Nas colunas Local Estq para o estoque de frente, e Local Ret. para estoque de retaguarda, digite os locais do
+estoque. Para confirmar clique no botão [F10] Confirmar.
+
+-- 36 of 59 --
+
+AllegroNet – Módulo Administração Local Página 37 de 59
+Menu Financeiro
+O menu Financeiro permite que você gerencie todas as transações de suas contas, movimentações do caixa,
+pagamentos de contas e até lançamento de notas fiscais.
+Painel Financeiro
+O Painel Financeiro é uma poderosa ferramenta que permite visualizar ou lançar os movimentos do seu
+negócio, exibindo o saldo se positivo ou negativo. No Painel Financeiro você registrar pagamentos de contas,
+recebimentos, consegue ainda visualizar as transferências, todas as vendas do Atendimento, lançamentos das
+notas fiscais de entrada de produto/insumo.
+Qualquer ação efetuada no caixa, banco ou compra podem ser lançados no sistema Allegro.Net, para isso
+clique na opção Painel Financeiro ou pressione CTRL+F.
+Acima você pode filtrar as suas movimentações por período, situação de pagamento (pagos ou não pagos),
+por conta, forma de pagamento, tipo (débito ou crédito), categorias, fornecedores ou clientes. Basta
+selecionar o filtro desejado, e clicar no botão Pesquisar [F3].
+Abaixo serão exibidos todos os lançamentos realizados conforme o período pesquisado. O sistema irá informar
+se o lançamento foi um débito ou crédito na sua conta, a data que foi lançada, o valor a ser pago ou já pago,
+a categoria, a pessoa envolvida na transação (tanto cliente, fornecedor ou operador), observação, número do
+documento e cheque.
+
+-- 37 of 59 --
+
+AllegroNet – Módulo Administração Local Página 38 de 59
+O sistema também informa o saldo geral dos seus lançamentos. No campo Saldo Hoje, você visualiza o saldo
+real do seu negócio desde o inicio de uso do sistema. Ele projeta os tickets pagos recebidos no Atendimento
+menos os seus lançamentos efetuados com débito.
+O Saldo com Atrasados é o saldo futuro, ou seja, o
+saldo atual mais o valor que você tem a receber. O
+valor no campo Saldo em 14/06/07 é o saldo do dia.
+No campo Total de Créditos e
+Débitos você pode visualizar o valor
+total de créditos e débitos lançados
+conforme o período especificado na
+pesquisa.
+Já no campo Resultado Cons. é o
+valor final do seu saldo conforme o período pesquisado,
+ou seja, é a soma total dos créditos menos a soma total
+de débitos.
+Para se ter um melhor controle sobre os valores, o
+sistema soma os valores de todos os lançamentos que
+você selecionar e exibe o total nos campos Vl Selec.
+Débitos e Vl Selec. Créditos.
+Efetuar Lançamentos
+No Painel Financeiro você pode registrar uma conta que você pagou, programar o vencimento dela e até
+registrar um valor que você recebeu. Para efetuar um lançamento, na tela do Painel Financeiro clique no
+botão [F4] Incluir.
+No campo Conta você pode gerenciar se o lançamento pertence a uma conta bancária específica ou a conta
+caixa da loja. Em Categoria, selecione o grupo que este lançamento pertence. Exemplo: se é um pagamento
+de conta de luz, selecione a subcategoria Luz.
+No campo Cliente/Fornecedor, clique no botão para
+localizar o cliente ou fornecedor envolvido no lançamento.
+No campo Tipo de Pessoa informe se o pagamento será
+para um Fornecedor ou Cliente. Digite o nome no campo
+Cliente/Fornecedor e clique no botão [F3] Pesquisar.
+Caso o cadastro não existir, clique no botão [Alt+C]
+Cadastro e preencha com os dados do Fornecedor ou
+Cliente.
+Após pesquisa, selecione o nome desejado e clique no
+botão [F10] Confirmar.
+Se desejar você pode digitar uma Observação referente ao lançamento. No campo Lançamento Recorrente
+você pode informar se o lançamento possui a data de vencimento mensal, anual, diário e etc. Para todas as
+contas com lançamento recorrente o sistema fará um lançamento automático de acordo com o período que
+selecionou ao cadastrar (a cada mês, semana, etc.)
+
+-- 38 of 59 --
+
+AllegroNet – Módulo Administração Local Página 39 de 59
+Abaixo digite a Data Original do vencimento e Valor Original da conta. Se a conta já estiver paga marque a
+coluna Pg?, automaticamente será exibido a data do pagamento e valor, basta selecionar a forma do
+pagamento dessa conta.
+Para confirmar o lançamento
+pressione [F10].
+Caso tenha algum lançamento com pagamento parcelado clique no botão .
+Em Data Inicial selecione a data dos vencimentos das parcelas
+e no campo Intervalo informe se esse vencimento será
+mensal, bimestral, semestral ou anual.
+No campo Valor informe o valor das parcelas e no campo
+Parcelas quantas parcelas terá esse lançamento. Pressione
+[F10] para confirmar o gerador de lançamentos.
+Depois de confirmar o lançamento é possível alterar as informações, basta marcar o
+lançamento desejado na coluna OK do Painel Financeiro e pressionar [F2] Alterar.
+Para confirmar o pagamento de um lançamento que estava
+em aberto, marque-o na coluna OK do Painel Financeiro e
+clique no botão [F10] Pagar.
+Selecione a Conta que será creditada e a Forma de Pagamento da operação,
+no campo Data informe a data do pagamento.
+Se for uma conta com lançamentos recorrentes, você pode alterar os valores
+das próximas parcelas para o valor pago atual marcando a opção Alterar o
+Valor dos Próximos Pagamentos.
+E pressione [F10] para confirmar o pagamento.
+Para cancelar/estornar um lançamento selecione o lançamento desejado e clique no botão
+[F8] Estornar. Informe a Justificativa de
+Estorno e confirme.
+O botão [Ctrl+E] Exportar permite exportar o
+resultado do Painel Financeiro para uma
+planilha do Excel.
+
+-- 39 of 59 --
+
+AllegroNet – Módulo Administração Local Página 40 de 59
+Quadro de Resultados
+O Quadro de Resultados permite ter uma visão geral do total mensal ou diário dos lançamentos do Painel
+Financeiro de cada categoria. Para visualizar clique no menu Financeiro e em seguida na opção Quadro de
+Resultados.
+No campo Layout selecione a opção Mensal ou Diário para visualizar os resultados se agrupado por mês ou por
+dia. Informe o período no campo De e Até e clique no botão [F10] Confirmar.
+Para exportar o resultado para uma planilha do Excel, clique no botão [Ctrl+E] Exportar.
+Transferir Valores Entre Contas
+Você pode trabalhar com mais de uma conta em sua loja e até fazer transferência de valores entre elas.
+Clique na opção Transferir Valores entre Contas, digite a data da transferência, o valor e forma de
+pagamento.
+É importante selecionar no campo Conta Origem a conta de onde o valor será debitado e no campo Conta
+Destino a conta que irá receberá o valor. Para confirmar pressione [F10].
+
+-- 40 of 59 --
+
+AllegroNet – Módulo Administração Local Página 41 de 59
+Conciliação de Pagamento
+Em Conciliação de Pagamento você pode gerenciar o valor real do seu faturamento porque permite trabalhar
+com as taxas Administrativas e prazos das suas formas de pagamento. O primeiro passo é definir os
+parâmetros das formas de pagamento dos cartões e cheques no Cadastros das Formas de Pagamento. A
+conciliação devem ser feitos conforme o extrato dos cartões do banco.
+Ao abrir a tela o sistema irá listar todos os pagamentos pendentes para a data exibida no campo Data
+Crédito. Você pode localizar todos os pagamentos pendentes clicando no botão Pesquisar [F3].
+Na coluna Valor o sistema irá exibir o valor real que você irá receber sobre o pagamento do ticket, ou seja, o
+Valor Original pago pelo cliente menos a porcentagem de descontos da taxa administrativa.
+Para baixar estas Formas de Pagamento, marque os pagamentos desejados na coluna OK.
+Se existiu alguma alteração em relação a taxa administrativa, o sistema permite
+alterar a nova taxa para os pagamentos. No campo Padrão (Aplicar Nova Taxa)
+informe a nova taxa e clique no botão [Alt+A] Aplicar.
+Especifique a Data Crédito desses pagamentos para a loja e a Conta
+Crédito que irá receber esses pagamentos. Para confirmar pressione
+[F10].
+Ao fazer a Conciliação de Pagamento, a forma de pagamento que estava pendente para baixa, fica
+compensada no Painel Financeiro.
+A tela de conciliação de pagamento irá exibir todos os pagamentos seguindo o conceito de anulação de
+ticket. Existem 2 situações que podem ocorrer na anulação do ticket:
+1) Ticket com pagamento e anulação no mesmo dia: o valor do pagamento não irá entrar no caixa e
+também não será exibido na tela de conciliação de pagamento porque o sistema entende que o
+dinheiro/cartão nem entrou no caixa.
+
+-- 41 of 59 --
+
+AllegroNet – Módulo Administração Local Página 42 de 59
+2) Ticket com pagamento diferente da data de anulação, ou seja, foi anulado no dia seguinte que
+o ticket foi pago: o sistema faz a sangria do valor. Exemplo, se o ticket foi pago no dia 21/08 o
+dinheiro entrou nesse dia, se anulação ocorrer no dia seguinte, dia 22/08, o sistema irá fazer a
+sangria desse valor, porque? Porque o dinheiro não entrou nesse dia, então esse valor não existiu, se
+o sistema fizer o estorno do valor irá dar diferença no caixa do dia 21, porém o dinheiro entrou no dia
+21 e está saindo no dia 22 já que subentende que o dinheiro está sendo devolvido para o cliente.
+No mesmo dia fizemos a conciliação do pagamento, então existiu a entrada dos R$ 15,00 do cartão e no
+mesmo dia, tive o estorno com a sangria, sendo assim se entrou R$ 15,00 e saiu R$ 15,00 o resultado
+conciliado do meu financeiro é R$ 0,00.
+Como o sistema sabe que precisa fazer a Sangria ou como o cliente sabe que a Sangria foi feito? Quando anula
+um ticket cujo pagamento foi realizado em outros dias, o Atendimento emite um alerta que o dinheiro deverá
+ser devolvido ao cliente e ainda
+pergunta a forma de pagamento.
+
+-- 42 of 59 --
+
+AllegroNet – Módulo Administração Local Página 43 de 59
+Menu Relatórios
+No menu Relatórios você encontra todos os relatórios disponíveis no AllegroNet para gerenciar toda a
+movimentação de sua loja.
+Neste menu você encontra os relatórios de Clientes, Tickets, Financeiros, Serviços, Produtos, Operacionais,
+Marketing e Relação das Atualizações.
+Em todas as telas de relatórios o sistema Allegro.Net oferece duas opções como
+Destino da impressão.
+A opção Tela permite visualizar o relatório na tela antes de enviar para a
+impressora, já a opção Impressora envia o relatório direto para a impressora.
+Ao visualizar na tela é possível realizar algumas ações sobre o relatório:
+Exporta o resultado do relatório para um documento do tipo pdf, word, excel ou rtf.
+Permite enviar o relatório para uma impressora.
+Atualiza o resultado do relatório.
+Exibe o resultado do relatório em árvore, permitindo rápida visualização das informações.
+Movimentação entre as páginas.
+Página atual.
+Total de páginas do relatório.
+Localizar um texto no resultado do relatório.
+Zoom.
+Relatórios de Clientes
+O menu Clientes permite consultar relatórios referentes ao cadastro e histórico do cliente.
+Clientes Novos
+Para visualizar os clientes novos cadastrados em sua loja clique no menu Relatórios, selecione a opção
+Clientes e clique em Novos.
+
+-- 43 of 59 --
+
+AllegroNet – Módulo Administração Local Página 44 de 59
+O layout Resumido permite tirar uma listagem com os nomes e telefones dos clientes novos. Já no layout
+Estatística você pode visualizar um gráfico com o total de clientes cadastrados em um determinado período.
+Aniversariantes
+Para tirar uma listagem com a relação dos aniversariantes do mês, ou do dia em especifico clique no menu
+Relatórios, no menu Clientes e em seguida clique em Aniversariantes. Clique no botão [F10] Confirmar para
+visualizar o relatório.
+Melhores Clientes
+O relatório de Melhores Clientes permite visualizar os clientes que mais faturaram, frequentaram ou levaram
+peças dentro de determinado período.
+No campo Critério selecione o critério para ordenação do resultado, se por: Faturamento, Frequência ou
+Volume. No campo De e Até determine o período de consumação.
+Marcando a opção Considerar Data de Cadastro você consegue filtrar clientes que se cadastraram em
+determinado período, sendo assim é possível filtrar os melhores novos clientes. A opção Considerar Data de
+Última Visita permite filtrar a partir da ultima data de visita do cliente, por exemplo, filtrar os melhores
+clientes que não voltaram mais.
+
+-- 44 of 59 --
+
+AllegroNet – Módulo Administração Local Página 45 de 59
+Volume de Produtos/Serviços por Cliente
+O relatório de Volume por Cliente permite consultar as peças ou produtos vendidos para determinado cliente.
+Para visualizar o relatório clique no menu Relatórios, opção Clientes e clique em Volume de
+Produtos/Serviços.
+Informe a data, é possível filtrar por determinado serviço ou
+agrupar.
+No campo Cliente digite o nome do cliente desejado e clique
+no botão para localizar o cadastro. Você também pode
+filtrar por Telefone ou Grupo de Clientes. Clique no botão
+[F10] Confirmar para visualizar o relatório.
+
+-- 45 of 59 --
+
+AllegroNet – Módulo Administração Local Página 46 de 59
+Curva ABC
+O relatório de Curva ABC de clientes é parecido com o relatório de Melhores Clientes, porém é possível filtrar
+por faixa de faturamento, frequência e volume. O relatório irá exibir o nome do cliente, endereço e valores.
+O relatório está no menu Relatórios, opção Clientes e Curva ABC.
+Com Saldo
+Permite listar todos os clientes que possuem saldo e o extrato de uso de cada cliente. Para visualizar o
+relatório clique no menu Relatórios, selecione a opção Clientes e clique na opção Com Saldo.
+O layout Resumido irá listar todos os clientes que possuem saldo no Atendimento. Já o layout Detalhado
+permite listar todas as movimentações desde a aquisição a baixa do saldo sobre a venda de um ticket.
+No layout Detalhado, especifique o período e no campo Cliente digite o nome do cliente e clique no botão
+para localizar o cadastro.
+
+-- 46 of 59 --
+
+AllegroNet – Módulo Administração Local Página 47 de 59
+Clientes com Endereço Incompleto
+Para realizar ações de telemarketing, esta lista apresenta os clientes cujo endereço esteja com alguma
+informação em branco, com espaço suficiente para a anotação manuscrita destas informações, o que permite
+a execução do trabalho sem um computador.
+Para visualizar o relatório clique no menu
+Relatórios, opções Clientes e clique em Com
+Endereço Incompleto. No campo Data do
+Cadastro informe o período desejado, referente
+a data de cadastro do cliente, e clique no botão
+[F10] Confirmar.
+Dados Cadastrais de Clientes
+Para consultar as informações cadastradas no campo Observação do cadastro do Cliente e quais clientes
+possuem Desconto Padrão, clique no menu Relatórios, opção Clientes e clique na opção Dados Cadastrais.
+No campo Filtro selecione a informação que deseja consultar e clique no
+botão [F10] Confirmar.
+Tickets
+O menu Tickets permite consultar relatórios referentes a
+venda de tickets e produção.
+
+-- 47 of 59 --
+
+AllegroNet – Módulo Administração Local Página 48 de 59
+Relatório de Tickets
+Para ver todas as informações sobre os tickets emitidos no Atendimento, no menu Relatórios selecione a
+opção Tickets e clique em Relatório de Tickets. Você pode visualizar todas as informações dos tickets
+emitidos de serviços e produtos em layout detalhado, resumido, lista ou detalhando as observações.
+Os filtros permitem diversas combinações, de acordo com a necessidade de informação. O campo Assistente
+de Filtros (Uso Frequente) permite de forma rápida selecionar os filtros necessários para obter informações
+como: tickets entregues, tickets pagos, tickets anulados, tickets em aberto.... ou você pode selecionar os
+filtros conforme sua necessidade.
+Campos do Relatório de Tickets
+Layout do Relatório Permite visualizar as informações dos tickets detalhadamente, resumidamente,
+em forma de lista ou detalhando as observações dos serviços.
+Tipo de Ticket Selecione o tipo de operação para venda de serviços e/ou produtos.
+Data de Filtro Permite filtrar por data de Emissão do ticket, data de Pagamento, data de
+Anulação, ou por data da Retirada do serviço ou Previsão de Entrega.
+Pagamento Está opção permite selecionar os tickets por Forma de Pagamento, como pagos,
+não pagos, dinheiro e outros.
+Condição do Pagamento Filtra os tickets pagos à vista ou antecipados, pagos na entrega do serviço ou
+como faturados.
+
+-- 48 of 59 --
+
+AllegroNet – Módulo Administração Local Página 49 de 59
+Situação do Ticket Você pode visualizar somente os tickets válidos e/ou anulados.
+Operador Emitiu Nesta opção você pode filtrar os tickets emitidos ou pagamentos recebidos por
+um determinado operador.
+Operador Recebeu
+Pagamento
+Mostra qual operador que recebeu o pagamento, pode filtrar um a um ou todos
+ao mesmo tempo.
+Computador Registrou
+Pagamento
+Para quem trabalha com múltiplos caixas, é possível filtrar quais caixas ou
+computador foi registrado o pagamento.
+Horário da Operação Permite filtrar os tickets emitidos dentro daquele determinado horário.
+Desconto Filtra os tickets que tiveram desconto na emissão, na entrega, ou desconto
+geral.
+Tickets de Delivery Este filtro permite filtrar os tickets que tiveram algum Delivery com ou sem OS.
+Tickets com Taxa
+Adicional Lista apenas os tickets que tiveram Taxa Adicional.
+Situação da Peça Está opção permite selecionar os tickets que ainda estão abertos na loja, e/ou
+que foram entregues, anulados ou cancelados.
+Peça Permite filtrar apenas os tickets que possuem a peça determinada.
+Família da Peça Filtra todos os tickets que possuem alguma peça da peça família selecionada.
+Serviço Este filtro lista os tickets que possuem determinado serviço.
+Grupo de Serviço Lista todos os tickets que tiveram algum serviço de grupo selecionado.
+Tipo Faturamento
+(Cliente Mensalista) Mostra os tickets de clientes que possuem faturamento ou os que não possuem.
+Dia do Fat. Lista os tickets dos clientes que possuem dia de faturamento.
+Grupo de Clientes Filtra pelo grupo de delivery que o cliente pertence.
+Cliente Específico Localize o cliente desejado para fazer a consulta e liste apenas os tickets
+registrados para o cliente selecionado.
+Telefone 1 Este campo permite filtrar todos os tickets que foram registrados para o cliente
+que possui determinado número de telefone.
+Código/ Cartão Fidelidade Faz a busca através do código do cartão do cliente.
+Clientes com
+Código/Cartão Lista os tickets de todos os clientes que possuem Código/Cartão.
+Ordenar Por Pode ordenar o filtro através da data de emissão, data do pagamento, pelo final
+do ticket, pela posição ou pelo cliente
+Retrabalhos
+Em uma única tela você pode gerenciar os retrabalhos registrados no Atendimento. Para visualizar o relatório
+no menu Relatórios, selecione Tickets e clique na opção Retrabalhos.
+O relatório de Retrabalhos oferece três layouts:
+ Retrabalhos Realizados: lista os tickets e serviços que tiveram retrabalho no Atendimento informando
+a justificativa.
+
+-- 49 of 59 --
+
+AllegroNet – Módulo Administração Local Página 50 de 59
+ Quantidade de Serviços: exibe as peças e serviços que tiveram retrabalho, dessa forma é possível
+saber qual é o tipo de serviço que mais gera retrabalho.
+ Estatística de Justificativa: permite saber qual é a motivo/justificativa mais utilizada para realizar o
+retrabalho de determinado serviço, assim você poderá saber onde está o problema ou o porque está
+tendo retrabalhos em sua loja.
+É possível ainda filtrar por Executor, saber quem é o colaborador que mais gera retrabalho, e por
+Disponibilizador, o responsável por ter avaliado o serviço.
+Kilos/Cestos
+O relatório de Kilos/Cestos permite gerenciar o volume de serviços vendidos por Kilo no Atendimento. Para
+consultar o relatório clique no menu Relatórios, opção Tickets e clique em Kilos/Cestos.
+O relatório oferece três listagens para consultar os
+resultados das vendas:
+ Volume de Kilo/Cesto: permite listar o total
+de serviços vendidos por cada tabela de
+preço de Kilo/Cesto do Atendimento.
+ Volume/Tickets por Cliente: detalha os
+tickets vendidos de Kilo/Cesto de cada
+cliente.
+ Peças por Kilo/Cesto: lista todas as peças
+vendidas no Kilo/Cesto de cada tabela de
+preço.
+Para cada layout é possível filtrar por Tabela de Preço e por determinado Cliente.
+
+-- 50 of 59 --
+
+AllegroNet – Módulo Administração Local Página 51 de 59
+Kit´s
+O relatório de Kilos/Cestos permite gerenciar o volume de serviços vendidos por Kilo no Atendimento. Para
+consultar o relatório clique no menu Relatórios, opção Tickets e clique em Kilos/Cestos.
+O relatório oferece três listagens para consultar os
+resultados das vendas:
+ Volume de Kilo/Cesto: permite listar o total
+de serviços vendidos por cada tabela de
+preço de Kilo/Cesto do Atendimento.
+ Volume/Tickets por Cliente: detalha os
+tickets vendidos de Kilo/Cesto de cada
+cliente.
+ Peças por Kilo/Cesto: lista todas as peças
+vendidas no Kilo/Cesto de cada tabela de
+preço.
+Para cada layout é possível filtrar por Tabela de Preço e por determinado Cliente.
+Orçamentos
+O Sistema Allegro.Net permite a recepção de serviço(s) que precisa(m) ser analisado(s) para saber quanto
+será cobrado para executá-lo através do Orçamento. Para consultar os Orçamentos emitidos, aprovados ou
+cancelados no Administração Local clique no menu Relatórios, opção Tickets e clique em Orçamentos.
+Informe o período desejado e no campo Data de Filtro selecione se
+deseja filtrar por Data de Emissão ou por Data de Validade do
+Orçamento (data prevista para o cliente ou para até quando aquele
+orçamento é válido).
+Em Status você pode filtrar pelos orçamentos Aprovados, Anulados ou
+em Aberto. No campo Operador, você pode selecionar pelo operador
+que atendeu o cliente.
+No campo Layout permite visualizar o resultado em lista resumido ou
+detalhando as peças e/ou produtos daquele orçamento.
+
+-- 51 of 59 --
+
+AllegroNet – Módulo Administração Local Página 52 de 59
+Orçamentos a Entregar por Hora
+O relatório de Orçamentos a Entregar por Hora permite gerenciar a produção e a previsão de entrega da
+avaliação dos serviços encaminhados para Orçamento. Para consultar o relatório clique no menu Relatórios,
+opção Tickets e clique em Orçamentos a Entregar por Hora.
+O relatório permite listar apenas as peças ou
+produtos do Orçamento ou detalhando as
+observações selecionando a opção desejada
+em Layout do Relatório.
+A opção Todos por Data de Validade permite
+listar todos os Orçamentos ignorando da data
+de validade.
+Em Tipo de Ticket é possível listar apenas por
+peças ou produtos. Ordenar por data de
+emissão ou validade.
+É possível ainda filtrar por determinado
+serviço, peça ou produto.
+Cobrança de Faturamento
+O relatório de Cobrança de Faturamento permite gerar
+um recibo ou um relatório de cobrança a ser enviado
+para o cliente ou empresa. Para visualizar o relatório
+clique no menu Relatórios, selecione a opção Tickets e
+clique em Cobrança de Faturamento.
+Em layout especifique se deseja apenas visualizar os
+valores e numeração dos tickets selecionando a opção
+RESUMIDO ou selecione a opção DETALHADO para
+visualizar os detalhes das peças e produtos.
+Especifique o dia nos campos De e Até.
+
+-- 52 of 59 --
+
+AllegroNet – Módulo Administração Local Página 53 de 59
+No campo Dados do Cliente você pode
+filtrar os clientes pelo nome, digite o
+nome do cliente no campo Cliente
+Específico e em seguida clique no botão
+para fazer a pesquisa do cliente
+desejado; ou através do número do
+telelefone cadastrado no campo
+Telefone 1 e também pelo Dia do
+Faturamento.
+Para as lojas que trabalham com
+Empresa/Hotel é possível filtrar os
+clientes por representante selecionando
+a empresa desejada no campo
+Empresa/Hotel.
+Marque a opção Listar somente tickets
+que todas as peças forma entregues
+para que o relatório exiba apenas os
+tickets que estão com o status Entregue
+para todas as peças.
+Clique no botão [F10] Confirmar para
+visualizar o relatório.
+Envio de E-mail de Cobrança de Faturamento
+Na Cobrança de Faturamento é possível enviar o relatório para todos os seus clientes com
+apenas alguns cliques. Em Relatório de Cobrança de Faturamento clique no botão E-Mail
+Massa.
+O sistema irá listar todos os
+clientes mensalistas do mês
+selecionado na tela do relatório.
+Você pode alterar os filtros de
+pesquisa se desejar, para fazer
+uma nova pesquisa clique no
+botão [F3] Pesquisar.
+Marque os clientes desejados ou
+todos clicando no botão Marcar
+Todos.
+Clique no botão [F10] Confirmar
+para editar o corpo do e-mail
+antes de confirmar o envio.
+
+-- 53 of 59 --
+
+AllegroNet – Módulo Administração Local Página 54 de 59
+Digite o corpo do e-mail a ser enviado para os clientes e clique no botão [F10] Enviar para confirmar o envio,
+automaticamente o sistema irá anexar o relatório junto ao e-mail enviado.
+Fechamento do Mês
+O relatório de Fechamento de Mês mostra o total de tickets emitidos, anulados ou cancelados. Informa o
+total de peças recebidas, anuladas e canceladas. O sistema Allegro ainda informa o valor dos tickets
+emitidos, os tickets que ainda tem a receber, os anulado, cancelados e não tarifados como Cortesia ou
+Orçamento.
+
+-- 54 of 59 --
+
+AllegroNet – Módulo Administração Local Página 55 de 59
+Peças a Entregar por Hora
+O AllegroNet oferece um relatório detalhado dos seus tickets para conferir as peças a serem entregues no dia
+que já estão disponíveis ou não. Selecione a opção
+Serviços a Entregar por Hora.
+Digite o período desejado, em Situação dos
+Serviços selecione as opções Disponíveis e/ou Não
+Disponíveis. No campo LayOut você pode definir a
+forma de visualizar os tickets com a Descrição dos
+Serviços ou com Preços.
+Ranking de Peças/Serviços
+Para saber quais foram as peças e/ou serviços mais vendidos em determinado período, vá ao menu Relatórios
+selecione Serviços e clique sobre a opção Ranking de Peças/Serviços.
+Em Layout selecione o ranking que deseja visualizar, se é somente
+das Peças, ou somente Serviços, ou quantidade de Peças sobre
+Serviços, ou quantidade de Serviços sobre as Peças.
+Informe o período desejado, é possível ainda ordenar por Volume,
+Faturamento e Nome. Marcando a opção Peças Diversos, é possível
+visualizar apenas as peças e/ou serviços que foram registrados
+através do botão Diversos do Atendimento.
+Clique no botão [F10] Confirmar
+para visualizar o relatório.
+
+-- 55 of 59 --
+
+AllegroNet – Módulo Administração Local Página 56 de 59
+Relatório de Entrada e Saída de Operador
+Para imprimir a relação da entrada e saída dos operadores, após finalizar o fechamento de entrada e saída vá
+para o menu Relatórios, selecione a opção Operadores e clique em Relatório de Entrada e Saída.
+Como uma folha de ponto, você poderá controlar melhor a carga horária de trabalho de seus operadores.
+Selecione o mês e o Operador desejado, em seguida pressione [F10] para visualizar o relatório.
+Relatório de Solicitações de Coleta/Entrega
+Para saber solicitações de coleta/entrega o
+sistema permite visualizar ordenadamente
+relatórios por períodos, por grupo de cliente,
+por coletor e também status de entrega.
+Através de layout diário ou mensal, pode-se
+ainda verificar através de gráficos a evolução de
+delivery.
+Relatório de Evolução de Delivery
+O relatório de evolução do delivery permite visualizar os resultados do delivery, sendo possível visualizar
+quantos clientes ativos e novos foram atendidos pelo delivery, valor de
+faturamento e peças. Para visualizar o relatório clique no menu
+Relatórios, na opção Operacionais clique em Delivery e em seguida em
+Evolução do Delivery.
+Os layouts Diário e Mensal permite consultar o gráfico por evolução
+mês a mês e diário.
+
+-- 56 of 59 --
+
+AllegroNet – Módulo Administração Local Página 57 de 59
+O primeiro quadro mostra o resultado geral do faturamento do delivery/entrega independente se o cliente é
+novo. Logo se você registrar um ticket de coleta, o relatório vai exibir o faturamento dessa coleta, e se esse
+mesmo ticket também for registrado para entrega, irá exibir o mesmo valor faturado para entrega. O
+relatório exibe o mesmo ticket em ambos para visualizar separado o resultado da coleta e da entrega.
+O segundo quadro mostra o valor que entrou de faturamento dos clientes novos do delivery/entrega sobre o
+resultado do período (do quadro acima).
+Marcando a opção Agrupar por Coletor/Entregador o relatório irá exibir o resultado total para cada coletor,
+ou se desejar você pode filtrar o resultado individualmente por cada coletor filtrando no campo Operador.
+No layout Coleta é possível consultar o resultado obtido apenas através das coletas.
+
+-- 57 of 59 --
+
+AllegroNet – Módulo Administração Local Página 58 de 59
+
+-- 58 of 59 --
+
+AllegroNet – Módulo Administração Local Página 59 de 59
+Backup Externo
+O arquivo do Backup Externo é a compactação do seu banco de Dados que pode ser salvo no pendrive ou em
+mídia de Cd.
+Para fazer o Backup Externo clique no Botão Localizar Destino, para selecionar no Local onde será salvo o
+arquivo de backup, ou apenas deixe no diretório que já vêm pré-configurado e descrito em Destino Backup.
+Marque a opção Banco de Dados (Obrigatório), e marque outra opção caso desejar como Configurações de
+Equipamentos.INI, Executáveis, Imagens Peças/Produtos e Templates de E-mail.
+Aconselhável marcar todas as opções para fins de troca de Servidor. Se for para o backup que dever ser
+efetuado Diariamente marque Banco de Dados (Obrigatório).
+Se marcar a opção Limpar Destino, serão substituídos todos os arquivos de Backup anteriores dentro do
+Destino Backup.
+Clique no botão [F10 Confirmar] para concluir a operação. Aguarde até término do Backup que concluirá com
+a seguinte mensagem:
+
+-- 59 of 59 --
+

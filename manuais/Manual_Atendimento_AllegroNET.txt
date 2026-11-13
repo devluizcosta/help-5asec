@@ -1,0 +1,1201 @@
+Allegro.Net
+Manual do Atendimento
+Versão 6.1.47.1
+Atualização 14/01/2015
+
+-- 1 of 53 --
+
+AllegroNet – Módulo Atendimento Página 2 de 53
+Sumário
+Funções do Sistema Allegronet ............................................................................................... 3
+Botões de Comando ............................................................................................................ 3
+Botões de Ação ................................................................................................................. 3
+Teclado Virtual [ALT+A] ....................................................................................................... 4
+Atendimento ...................................................................................................................... 5
+Recepção de Serviços [F5] .................................................................................................... 6
+Cadastro de Clientes [F4] ....................................................................................................12
+Venda de Produtos e Serviços [F5] .........................................................................................12
+Venda de Produtos [F5] ......................................................................................................14
+Entregando os Serviços .......................................................................................................17
+Entregar por Ticket [F6] ..................................................................................................17
+Entrega Parcial das Peças [CTRL+F6] ...................................................................................18
+Entregar Ticket por Cliente [ALT+F6] ..................................................................................19
+Reemissão de Ticket [F9] ....................................................................................................20
+Anular Ticket [F8] .............................................................................................................21
+Movimentar Caixa [CTRL+M] .................................................................................................22
+Depósito e Sangria de Saldo de Cliente ................................................................................23
+Depósito e Sangria de Fornecedor .......................................................................................25
+Leitura X [CTRL+X] ............................................................................................................26
+Redução Z [CTRL+Z] ..........................................................................................................28
+Pagamentos Faturados [CTRL+F] ...........................................................................................28
+Troca de Operador [Ctrl+Alt+O] ............................................................................................30
+Retrabalho [CTRL+R]..........................................................................................................30
+Consultar Tabela de Preço [CTRL+P] ......................................................................................31
+Utilizando o Delivery .........................................................................................................32
+Solicitar Coleta [ALT+Y]...................................................................................................32
+Confirmar Coleta [CTRL+Y] ...............................................................................................33
+Delivery Dia [ALT+D] .......................................................................................................34
+Grade de Entrega [CTRL+G] .................................................................................................35
+Disponibilizar Serviços [CTRL+D] ...........................................................................................36
+Inventário e Relação de Entrega [CTRL+E] ...............................................................................37
+Entregas ......................................................................................................................37
+Inventário ....................................................................................................................38
+Ajuste de Posições Fixas [Alt+P] ............................................................................................39
+Visualiza Ticket [CTRL+T] ....................................................................................................40
+Localizar Peça [CTRL+Q] .....................................................................................................43
+Terceirização de Serviços ....................................................................................................44
+Cadastrando os Terceiros .................................................................................................44
+Enviando as Peças para os Terceiros ....................................................................................44
+Retorno das Peças (Finalizar Terceiros) ................................................................................46
+Baixa de Insumos [CTRL+U] ..................................................................................................46
+Controle de Operador [CTRL+H] ............................................................................................47
+Versão e Liberação de Acesso [CTRL+V] ...................................................................................47
+Relatórios [Alt+R] .............................................................................................................49
+Solicitações Coleta e Entrega ............................................................................................49
+Peças a Entregar ............................................................................................................50
+Volume de Peças ............................................................................................................51
+Remessa para Terceiros ...................................................................................................51
+Anulações Realizadas ......................................................................................................51
+Retrabalhos Realizados....................................................................................................51
+Produtos Vendidos..........................................................................................................51
+Clientes Novos ..............................................................................................................52
+Tickets ........................................................................................................................52
+Movimentações Caixa ......................................................................................................52
+Descontos Concedidos .....................................................................................................52
+Redução Z Dia ...............................................................................................................53
+
+-- 2 of 53 --
+
+AllegroNet – Módulo Atendimento Página 3 de 53
+Funções do Sistema Allegronet
+O AllegroNet possui algumas funções básicas que serão utilizadas em todo o sistema. Para facilitar o
+aprendizado e a operação do sistema, a sua forma de operação (chamada de interface) seguirá sempre um
+padrão.
+Botões de Comando
+Nas telas de operações são apresentados os botões de comando, que permitem realizar as operações de
+cadastramento, alteração, exclusão e confirmação. Cada botão de comando geralmente tem uma tecla de
+atalho associada; no caso de escritórios, onde é utilizado um monitor comum procure utilizar sempre as
+teclas de atalho para ganhar velocidade na operação do sistema.
+Quando um registro está sendo alterado ou incluído realiza a gravação dos dados digitados.
+Descarta as alterações realizadas no registro de informações e volta à tela atual,
+permitindo fazer uma nova alteração ou inclusão.
+Apaga as informações digitadas na tela sem cancelar a ação.
+Fecha a janela atual.
+Localiza informações no sistema. Exemplo: serviços, cadastro de clientes e tickets.
+Botões de Ação
+Os botões de ação possuem a função do mouse e auxilia na movimentação dos dados no sistema, como
+adicionar, diminuir ou ir para a próxima página.
+Quando existem muitos registros na tela, permite avançar para a próxima página ou
+voltar para a página anterior.
+A partir do registro selecionado permite ir para o próximo registro ou para o anterior.
+Adiciona ou subtrai os números ou valores do campo selecionado.
+Abre a lista com os detalhes do registro selecionado.
+
+-- 3 of 53 --
+
+AllegroNet – Módulo Atendimento Página 4 de 53
+Teclado Virtual [ALT+A]
+O Teclado Virtual foi criado para digitação através do monitor touchscreen, dessa forma torna-se
+desnecessário o uso do teclado. Para acionar o teclado virtual basta dar um toque sobre o botão [Alt+T]
+Teclado.
+O teclado virtual possui as mesmas funcionalidades de um teclado comum, as posições das teclas também
+foram mantidas para melhor localização e adaptação. Para digitar toque as letras ou números desejados.
+Para confirmar a digitação de um toque sobre o botão [F10] Confirmar.
+Quando você acionar o teclado
+virtual em um campo de data ou
+hora, ele irá exibir um teclado
+especifico para selecionar o dia,
+mês, ano e hora.
+
+-- 4 of 53 --
+
+AllegroNet – Módulo Atendimento Página 5 de 53
+Atendimento
+No módulo Atendimento são registradas as vendas dos serviços, solicitação de coleta e entrega do delivery,
+cadastro de novos clientes, entre outros. Para abrir dê duplo clique no atalho do módulo Atendimento.
+As funções de atendimento estão concentradas na tela principal e também possuem acesso pelo teclado,
+permitindo agilidade durante o uso.
+São encontradas também as funções como: Movimentar Caixa, Leitura X, Redução Z, Pagamento dos
+Faturados, Receber Retrabalho, Entregar por Ticket, Entregar por Peça, Disponibilizar, Entrega e inventário
+Entregar por Cliente, Anular Ticket e Remitir Ticket, Grade de Entrega, Visualizar Ticket, Tabela de Preços,
+Enviar Serviços para Terceiros, Finalizar Terceiros, Registro de Horário de Operadores, Relatórios
+Operacionais, Liberação de Acesso e Fechar.
+
+-- 5 of 53 --
+
+AllegroNet – Módulo Atendimento Página 6 de 53
+Recepção de Serviços [F5]
+Para registrar a entrada de peças ou serviços dê um toque sobre o botão [F5] Receber ou pressione as teclas
+[F5] do teclado.
+No primeiro acesso do Atendimento o sistema irá abrir a tela de pesquisa de clientes. É nessa tela que você
+irá identificar ou cadastrar o cliente. Para localizar digite o telefone ou nome ou código ou endereço ou CPF
+do cliente através do teclado virtual e toque no botão [F3] Pesquisar. No campo Resultado serão listados
+todos os nomes encontrados.
+No botão [F11] Pagt. Pend. você pode imprimir a relação dos tickets que estão a pagar do cliente
+relacionado.
+Caso o cliente não esteja cadastrado, o sistema emitirá um alerta informando que o cadastro não existe e
+abrirá a tela de cadastro do cliente. Você também pode acessar o cadastro e incluir um novo cliente através
+do botão [F4] Incluir. Para alterar ou modificar o cadastro de um cliente pressione o botão [F2] Alterar.
+
+-- 6 of 53 --
+
+AllegroNet – Módulo Atendimento Página 7 de 53
+Na tela de Cadastro de Clientes digite o Nome e Telefones, preencha as outras informações se necessário. É
+importante preencher todos os dados dos clientes para efeito de ações de Marketing mais eficiente.
+No campo Forma de Conhecimento você pode registrar o tipo de marketing que trouxe o seu cliente até a
+sua loja, exemplo: revista, indicação de amigo(a), internet, comercial, panfletagem entre outros.
+O sistema Allegro.Net permite ainda trabalhar com Convênios de empresas, dessa forma o seu cliente será
+beneficiado com descontos.
+Para facilitar no cadastro do cliente ao digitar o número do CEP e pressionar ENTER, o sistema irá preencher
+automaticamente as informações da rua e bairro.
+Você ainda pode informar número de documentos, dias de pagamento dos tickets faturados e delivery. Em
+Referência você pode cadastrar um ponto de referência do endereço desse cliente para facilitar a
+localização da residência para o motorista que irá entregar ou coletar as peças.
+No campo Observação você pode cadastrar uma observação ou lembrete para ser exibido no Atendimento
+durante a recepção de peças. Para confirmar o cadastro pressione o botão [F10] Confirmar.
+
+-- 7 of 53 --
+
+AllegroNet – Módulo Atendimento Página 8 de 53
+Depois de confirmar o cadastro do cliente, o sistema já está pronto para receber as peças e serviço e em
+seguida emitir o cupom. Na tela de recepção de serviços alguns dados de cadastro do cliente serão exibidos
+como o nome, telefone, data de última visita, ranking e observação.
+Para selecionar as peças que compõe o ticket, pressione o botão com a descrição/imagem da peça desejada.
+Caso esteja exibindo outra tela como de observações, por exemplo, dê um toque sobre o botão
+Peça para voltar ao menu principal. As peças já selecionadas serão listadas no quadro ao lado
+esquerdo da tela.
+No campo Qtd. informe quantas peças idênticas o cliente trouxe.
+Para mudar a quantidade clique no botão + Soma para aumentar,
+ou você também pode mudar o valor dando um toque sobre o botão
+Qtde. para abrir o teclado virtual. De um toque sobre o número de
+quantidades de peças.
+Pressione [F10] para confirmar e voltar para a recepção de peças.
+
+-- 8 of 53 --
+
+AllegroNet – Módulo Atendimento Página 9 de 53
+No item DIVERSOS você pode descrever uma nova peça que não consta na lista. Pressione o botão Diversos,
+abrirá uma nova janela em seguida digite a descrição da peça e o preço.
+Confirme com um clique no botão [F10] Confirmar.
+Este cadastro é provisório, ou seja, este item não fará
+parte da sua lista de preço.
+Agora o próximo passo será descrever as características da peça como, por exemplo: manchado, rasgado, cor
+branca, estampa listrada e outros. No
+sistema AllegroNet as observações são
+separadas por grupos; cores, observações
+de defeitos, marca e estampa.
+Para selecionar as observações de cor, de
+um toque sobre o botão Cor.
+Abaixo serão listadas as cores pré-
+cadastradas no sistema, clique na cor
+desejada.
+Você também pode usar a observação de
+cor DIVERSOS.
+Dica
+Registre a maior quantidade possível de observações e detalhes, porque após a emissão se
+faz importante para uma rápida localização na entrega da peça ou até mesmo para uma
+possível indenização de defeitos posteriores que não foram registrados.
+No botão Observ. você define os defeitos e sujidades da peça como por exemplo, basta dar um
+toque sobre as observações desejadas.
+Em Marca você informa a marca de fabricação da peça.
+Para definir a estampa da peça, de um toque sobre o botão Estampa e selecione a opção
+desejada.
+No botão Serviço você define os serviços especiais a serem executados na peça.
+O Sistema terá um serviço padrão, por exemplo, “Lavar” quando o segmento é Lavanderia.
+O preço do serviço padrão será o valor principal da Tabela de Preços.
+Além do serviço padrão (Lavar), o sistema permite que sejam selecionados outros serviços para a mesma
+peça, por exemplo: impermeabilizante, ajuste de barra, barra original e entre outros.
+A soma do valor dos serviços selecionados irá compor o preço final da peça.
+
+-- 9 of 53 --
+
+AllegroNet – Módulo Atendimento Página 10 de 53
+No quadro ao lado você pode visualizar as peças, serviços e
+observações relacionadas.
+O sistema irá exibir somente a descrição da peça, quantidade
+e preço. Para listar os detalhes da peça clique no botão
+Abre.
+Depois de selecionar todas as peças na parte inferior do quadro lateral o sistema informa o Total de Peças e
+o Valor Total a ser cobrado do cliente. É importante conferir sempre o valor total do ticket, dessa forma irá
+evitar erros de registro incorreto de peças.
+Para finalizar a venda clique no botão [F10] Confirmar ou pressione a tecla [F10] do teclado. Em seguida
+abrirá a tela Fechamento da Recepção onde você irá informar a data da entrega e a forma de pagamento.
+No campo Data Entrega e Hora Entrega determine a data e horário que
+as peças estarão prontas.
+De um toque no botão Soma (+) para adicionar mais um dia ou hora, ou
+Subtrai (-) para diminuir ajustar a hora ou data de entrega.
+Você pode usar também o teclado virtual, basta estar com o campo selecionado em seguida de um toque
+sobre o botão Teclado.
+Ao selecionar a data o sistema exibirá a Grade de Serviços do dia selecionado. Na grade aparecerá o total de
+peças a serem entregues em determinado horário.
+Agora informe a condição de pagamento, se o pagamento for à
+vista marque a opção Antecipado ou a pagar marque a opção
+Faturado.
+Se o pagamento for antecipado descrimine a Forma de
+Pagamento selecionando (Cartão, Cheque, Dinheiro etc.).
+O pagamento Faturado é destinado ao ticket que não será pago
+no momento da sua emissão, poderá ser na entrega das peças ou
+na data definida para a cobrança do faturamento se o cliente se
+encaixar nesta situação.
+No campo Tot. Pos digite o total de posições desejadas, ou clique no botão Soma. Se for um ticket para
+entrega, no campo Entregador de um toque sobre o nome da pessoa que fará a entrega das peças.
+
+-- 10 of 53 --
+
+AllegroNet – Módulo Atendimento Página 11 de 53
+No Fechamento da Recepção é possível dar um desconto sobre o valor total do ticket. Digite o valor do
+desconto e automaticamente o Valor Final a ser pago será exibido já com o desconto.
+Se o cliente der uma quantia maior que o Valor Total do ticket, digite esse valor no campo Valor Pago que
+automaticamente o sistema informa o Troco a ser dado ao cliente.
+Para finalizar e imprimir o ticket do cliente e das peças pressione [F10].
+Ao finalizar a impressão o sistema irá
+voltar para o atendimento.
+Para iniciar uma nova recepção de um
+toque sobre o botão [F3] Pesquisar para
+que assim possa localizar ou cadastrar o
+próximo cliente.
+
+-- 11 of 53 --
+
+AllegroNet – Módulo Atendimento Página 12 de 53
+Cadastro de Clientes [F4]
+Na recepção de Serviços, depois de localizar o cliente, você pode fazer alterações no cadastro do mesmo
+dando um toque sobre o botão Cliente. Digite os novos dados na tela de Cadastro de Cliente através do
+teclado virtual. Para confirmar a alteração pressione o botão [F10] Confirmar.
+Venda de Produtos e Serviços [F5]
+Você também pode efetuar uma venda de produto juntamente com o recebimento de um serviço para o
+mesmo cliente em um único ticket. Para fazer a venda de produto e serviços dê um toque sobre o botão [F5]
+Receber/Vender ou pressione as teclas [F5] do teclado.
+O sistema ira abrir a tela de pesquisa de clientes. Digite o nome do cliente através do teclado virtual e toque
+no botão [F3] Pesquisa. No campo de Resultado serão listados todos os nomes encontrados.
+
+-- 12 of 53 --
+
+AllegroNet – Módulo Atendimento Página 13 de 53
+Em caso o cliente não tiver cadastro na loja, e for um cliente que vai apenas comprar produto na loja pode
+usar a opção de [F5] Balcão na tela de localizar cadastro do cliente, e apenas tocar no botão para realizar a
+venda do produto. Não será necessário fazer o cadastro do cliente apenas realizar a venda.
+Após localizar o cadastro do cliente clique no botão [F10] Confirmar. Abrirá a para tela de Recepção de
+Serviços e Venda.
+No quadro ao lado você pode visualizar as peças e produtos relacionados. Para vender um produto com
+serviço, clique no botão Venda e marque o produto desejado, você também poderá fazer a venda utilizando
+um leitor de código de barras, clique no botão Código para receber a leitura.
+Depois de selecionar todas as peças e produtos na parte inferior do quadro lateral o sistema informa o Total
+de Produtos, Peças e o Valor Total a ser cobrado do cliente.
+Para finalizar a venda clique no botão [F10] Confirmar ou pressione a tecla [F10] do teclado. Em seguida
+abrirá a tela Fechamento da Recepção onde você irá informar a data da entrega e a forma de pagamento.
+
+-- 13 of 53 --
+
+AllegroNet – Módulo Atendimento Página 14 de 53
+No campo Data Entrega e Hora Entrega determine a data e horário que
+as peças estarão prontas.
+Você pode usar também o teclado virtual, basta estar com o campo
+selecionado em seguida de um toque sobre o botão Teclado.
+No Fechamento o sistema irá exibir separadamente o valor total faturado de Produto e Serviço, totalizando
+no final. Para o caso de produtos é obrigatório o pagamento a vista do valor total de Produtos.
+Informe a condição de pagamento, se o pagamento for à vista marque a
+opção Antecipado ou a pagar marque a opção Faturado.
+Se o pagamento for antecipado descrimine a Forma de Pagamento
+selecionando (Cartão, Cheque, Dinheiro etc.).
+O pagamento Faturado é destinado ao ticket que não será pago no
+momento da sua emissão, poderá ser na entrega das peças ou na data
+definida para a cobrança do faturamento se o cliente se encaixar nesta
+situação.
+Caso existir digite o valor do desconto e automaticamente o Valor Final
+a ser pago será exibido já com o desconto.
+Se o cliente der uma quantia maior que o Valor Total do ticket, digite esse valor no campo Valor Pago que
+automaticamente o sistema informa o Troco a ser dado ao cliente.
+Para finalizar e imprimir o ticket do cliente
+clique no botão Confirmar [F10].
+Ao finalizar a impressão o sistema irá voltar
+para o atendimento.
+Para iniciar uma nova recepção de um toque
+sobre o botão [F3] Pesquisar para que assim
+possa localizar ou cadastrar o próximo cliente.
+Venda de Produtos [F5]
+Para fazer a venda de produto dê um toque sobre o botão [F5] Vender.
+O sistema ira abrir a tela de pesquisa de clientes. Digite o nome do cliente através do teclado virtual e toque
+no botão [F3] Pesquisa. No campo de Resultado serão listados todos os nomes encontrados.
+
+-- 14 of 53 --
+
+AllegroNet – Módulo Atendimento Página 15 de 53
+Caso o cliente não quiser se identificar, você pode utilizar a opção Cliente Balcão através do botão [F5]
+Balcão na tela de localização do cadastro do cliente. Dessa forma não será necessário fazer o cadastro do
+cliente para realizar a venda.
+Após localizar o cadastro do cliente clique no botão [F10] Confirmar ou após clicar no botão [F5] Balcão
+abrirá a tela de Recepção de Venda de Produtos.
+Você pode identificar o produto através da leitura do Código de Barras. Basta posicionar o leitor sobre o
+código de barras do produto que o sistema
+irá localizar automaticamente e adicionar o
+produto a lista.
+Você também poderá utilizar o botão
+Código para fazer a mesma leitura.
+
+-- 15 of 53 --
+
+AllegroNet – Módulo Atendimento Página 16 de 53
+Caso tenha dificuldades em ler o código do produto você pode tentar localizar pela descrição do produto,
+clique no botão [F3] Pesquisar.
+Você pode filtrar o produto pelo Grupo ou digitando o nome no campo Descrição Peça. Selecione o produto
+desejado e pressione [F10] Confirmar, automaticamente o código e os dados do produto será exibido para
+venda.
+A soma do valor dos produtos selecionados irá compor o preço final do ticket. Para finalizar a venda pressione
+o botão [F10] Confirmar.
+Toda venda deve ser paga à vista, portanto
+no Fechamento da Recepção o sistema irá
+pedir somente a Forma de Pagamento.
+Selecione a forma, se necessário digite o
+valor de desconto.
+No campo Calcula Troco você pode
+informar o valor total em dinheiro que o
+cliente está deixando e automaticamente o
+sistema irá calcular o valor a ser devolvido
+como troco.
+Para fechar a venda pressione [F10]
+Confirmar.
+
+-- 16 of 53 --
+
+AllegroNet – Módulo Atendimento Página 17 de 53
+Entregando os Serviços
+Para finalizar o ticket quando o cliente vem retirar os serviços que já estão prontos é necessário fazer a baixa
+dos mesmos. O sistema Allegro.Net permite fazer a entrega dos tickets de três formas:
+ Entrega total por número de ticket [F6].
+ Entrega por peças [CTRL+F6].
+ Entrega de tickets por cliente [ALT+F6].
+Entregar por Ticket [F6]
+Para entregar as peças de um ticket apenas pelo número do mesmo clique no botão [F6] Entregar (Ticket).
+O procedimento é bem simples, você pode localizar o ticket pelo número, OS ou número da Etiqueta. Digite o
+número em seguida de um toque sobre o botão [F3] Pesquisar para listar as informações do ticket desejado.
+Você pode baixar ao mesmo tempo quantos tickets forem necessários, basta repetir o procedimento.
+Selecione a Forma de Pagamento dos tickets, o pagamento será padrão para todos os tickets listados na tela.
+Caso tenha pesquisado um ticket errado, selecione o mesmo e de um toque sobre o botão Exclui.
+
+-- 17 of 53 --
+
+AllegroNet – Módulo Atendimento Página 18 de 53
+Para fornecer um desconto sobre o valor total do ticket de um toque sobre o botão Desconto, digite o valor
+do desconto desejado e confirme. Para finalizar a baixa dos tickets pressione o botão [F10] Confirmar.
+OBS.: O campo Observação nas telas [F6] Entregar Cliente e [CTRL+F6] Entregar Peça tem a finalidade de
+facilitar a inserção de observações no ticket caso necessário.
+Entrega Parcial das Peças [CTRL+F6]
+O sistema permite fazer apenas a entrega de algumas peças do ticket sem fazer a entrega total. Com isso é
+possível confirmar o pagamento somente das peças a serem entregues, deixando o restante do pagamento
+pendente para a próxima entrega. Pressionar o botão [CTRL+F6] Entregar (Peça).
+Digite o número do ticket desejado e de um toque sobre o botão [F3] Pesquisar e marque as peças a serem
+entregues através do botão Seleção.
+Dica
+O Entregar Peças é recomendado para entrega parcial das peças de um ticket, se deseja
+entregar todas as peças utilize o botão [F6] Entregar (Ticket).
+
+-- 18 of 53 --
+
+AllegroNet – Módulo Atendimento Página 19 de 53
+Você pode cobrar somente a peça que será entregue ou o cobrar
+o valor total do ticket. Para efetuar o pagamento total do ticket
+de um toque sobre o botão [F10] Pág Total.
+Para cobrar o pagamento somente das peças entregues de um
+toque sobre o botão [ALT+F10] Pg Peç. Selecione a forma de
+pagamento desejada e de um toque sobre o botão [F10]
+Confirmar.
+Ou você ainda apenas entregar a peça e deixar o valor pendente.
+Selecione a peça desejada e clique sobre o botão [Ctrl+F10]
+Fatura.
+Além de confirmar o pagamento do ticket, podemos informar
+uma nova data e um novo horário de entrega do ticket.
+Entregar Ticket por Cliente [ALT+F6]
+No Allegro.Net é possível fazer a entrega de todos os tickets em aberto de um determinado cliente. Para
+fazer isso pressione o botão [Alt+F6] Entregar (Cliente).
+Digite o nome do cliente e clique no botão [F3] Pesquisar. Selecione o cliente desejado e marque os tickets
+a serem baixados.
+
+-- 19 of 53 --
+
+AllegroNet – Módulo Atendimento Página 20 de 53
+Selecione os tickets a ser entregue, automaticamente o sistema irá somar o valor dos tickets e o valor total A
+Pagar. Selecione a forma de pagamento dos tickets, lembre-se a forma de pagamento será a mesma para
+todos os tickets selecionados.
+O desconto pode ser concedido individualmente sobre um
+determinado ticket, ou sobre o valor total do pagamento.
+Clique sobre o botão Desconto, e selecione o valor ou percentual do
+desconto. Se o desconto for sobre um determinado ticket, selecione o
+ticket desejado antes de pressionar o botão Desconto.
+Para conceder o desconto sobre o valor total do pagamento pressione
+o botão Desc. Valor Total.
+O botão [F11] Pagt. Pend. permite imprimir a relação dos tickets e
+valor total pendente a receber do cliente.
+Para confirmar a entrega clique no botão [F10] Confirmar.
+Reemissão de Ticket [F9]
+Em caso de perda ou termino de bobina o sistema Allegro.Net permite reimprimir o ticket. Pressione o botão
+[F9] Reemitir.
+Escolha o tipo de impressão do ticket:
+ Ticket Completo: reemite todos os tickets.
+ Ticket do Cliente: reemite apenas o ticket
+Cliente.
+ Peças: imprime apenas os tickets das peças.
+ Peça Especificada: reemite apenas o ticket de
+serviço desejado, você pode digitar o número da
+peça que você precisa imprimir.
+ Intervalo de Peças: reemite as peças por um
+determinado intervalo, basta informar o número
+da peça inicial e final.
+Digite o número do ticket e clique no botão [F10]
+Confirmar para imprimir a cópia do ticket.
+Para maior controle você também pode obrigar a digitar a justificativa de remissão do ticket. Para habilitar
+acesse o Administração Local, selecione a opção Configurações e clique em Gerais.
+Na guia Impressão Geral marque a opção Justificativa de Remissão Obrigatória. Clique no botão Confirmar
+para salvar a configuração.
+
+-- 20 of 53 --
+
+AllegroNet – Módulo Atendimento Página 21 de 53
+Anular Ticket [F8]
+Você pode anular um ticket que tiveram alguns problemas como, por exemplo, o cliente ter desistido,
+emissão errada, forma de pagamento errado entre outros motivos. Para anular um ticket clique no botão [F8]
+Anular.
+Digite o número do ticket e pressione ENTER, em seguida as informações do ticket serão exibidas. Selecione a
+Justificativa de Anulação do ticket, é importante informar o porquê da anulação para obter uma estatística
+dos maiores motivos de anulação.
+Para confirmar a anulação de um toque sobre o botão [F10] Confirmar.
+Se o ticket foi emitido e pago em outro dia diferente da
+anulação, o sistema irá emitir automaticamente uma
+sangria com o valor pago a ser devolvido pelo cliente.
+
+-- 21 of 53 --
+
+AllegroNet – Módulo Atendimento Página 22 de 53
+Ao confirmar o sistema Allegro.Net irá perguntar a forma que o
+valor será devolvido para o cliente, selecione a forma de
+pagamento e confirme.
+Se o ticket for anulado no mesmo dia em que foi registrado e
+pago, o relatório da movimentação do caixa não sofrerá
+alteração.
+Movimentar Caixa [CTRL+M]
+É na Movimentação do Caixa que determinamos o valor inicial do caixa inicial, realizar depósitos ou sangrias.
+De um toque no botão [CTRL+M] Movimentar Caixa ou pressione as teclas CTRL+M.
+Selecione o tipo de movimentação, se é Depósito ou Sangria. No Depósito você informa que está colocando
+um determinado valor dentro do caixa, e se for uma retirada (saída) de valor selecione o tipo Sangria.
+Digite o valor e selecione a forma de pagamento da movimentação (dinheiro, cheque, ou outros). No campo
+Categoria selecione em qual categoria financeira essa movimentação se enquadra. Exemplo: R$150,00 de
+Sangria para depósito em banco.
+
+-- 22 of 53 --
+
+AllegroNet – Módulo Atendimento Página 23 de 53
+Pressione [F10] para confirmar a movimentação. Em seguida abrirá uma tela perguntando se deseja emitir
+recibo, clique em SIM caso deseja imprimir um comprovante.
+Você também pode informar se essa movimentação é para um determinado cliente ou fornecedor. Para
+registrar no campo Tipo de Pessoa de um toque sobre o botão Cliente ou Fornecedor.
+Para confirmar pressione o botão [F10] Confirmar.
+Depósito e Sangria de Saldo de Cliente
+O sistema permite trabalhar com saldo de clientes, ou seja, se o cliente deixar dinheiro a mais no ato do
+pagamento ou deixar pago como um crédito antecipado, o valor poderá ser utilizado nas próximas visitas.
+No campo Tipo de Pessoa pressione o botão Cliente e automaticamente abrirá a tela Localizar Cliente.
+Localize o cliente desejado pelo nome ou telefone e pressione o botão [F10] Confirmar.
+O sistema irá retornar para a tela de Movimentação de Caixa agora com os dados do cliente. Informe o valor,
+selecione a condição de Pagamento e a categoria relacionada ao Depósito de Saldo de Cliente.
+
+-- 23 of 53 --
+
+AllegroNet – Módulo Atendimento Página 24 de 53
+Para confirmar pressione o botão [F10] Confirmar. O Atendimento irá perguntar se deseja emitir um ticket
+para o mesmo cliente, caso confirmar irá abrir a recepção de serviços.
+Na tela de Fechamento da Recepção o
+campo Saldo ficará habilitado com os
+botões Resgata e Não Resg. ativados.
+O campo Saldo irá informar o valor
+total de saldo do cliente.
+Ao selecionar a opção Resgata o campo com as formas de
+pagamento ficarão bloqueadas se o valor do Saldo for maior que o
+valor total do ticket.
+Se o valor do saldo for menor que o valor total do ticket, o campo
+com as formas de pagamento ficará ativado, podendo o valor
+restante ser pago antecipado ou faturado.
+Caso não deseje utilizar o valor do Saldo para o pagamento do ticket clique sobre o botão Não Resg. para
+habilitar o campo com as formas de pagamento.
+Ao confirmar a emissão do ticket, o valor total do saldo do cliente será subtraído com o valor da venda.
+
+-- 24 of 53 --
+
+AllegroNet – Módulo Atendimento Página 25 de 53
+Para cancelar o saldo do cliente é necessário fazer a Sangria do valor. Marque a opção Sangria, informe o
+valor, condição de pagamento e a categoria.
+Pesquise o cliente e
+pressione o botão [F10]
+Confirmar. Abrirá uma
+janela para você
+selecionar o valor que já
+disponível para ser
+devolvido. Selecione o
+valor na coluna OK e
+pressione o botão [F10]
+Confirmar para finalizar.
+Depósito e Sangria de Fornecedor
+Para registrar um pagamento ou recebimento de fornecedor ou operador, na tela de movimentação de caixa,
+no campo Tipo de Pessoa pressione o botão Fornecedor.
+Selecione o nome do
+Fornecedor e pressione o
+botão [F10] Confirmar.
+
+-- 25 of 53 --
+
+AllegroNet – Módulo Atendimento Página 26 de 53
+Leitura X [CTRL+X]
+A Posição X do dia mostra toda a movimentação do seu caixa. Esta tela exibe as sangrias, depósitos, total a
+receber, pagamento de faturados, valores do caixa por forma de pagamento e também o valor emitido no
+dia. Para visualizar a posição do caixa de um toque sobre o botão [CTRL+X] Leitura X ou pressione as teclas
+CTRL+X do teclado.
+Para imprimir o relatório da Leitura X clique no botão [F11] Imprimir. Para detalhar na impressão os
+depósitos e sangrias do dia marque a opção Detalha Sangrias e Depósitos na Impressão.
+
+-- 26 of 53 --
+
+AllegroNet – Módulo Atendimento Página 27 de 53
+Campos da Leitura X:
+Data
+Data de referência da Posição X.
+Você pode visualizar os Valores X de outros dias, basta digitar a data desejada e
+dar um toque sobre o botão [F3] Pesquisar para visualizar as informações. Ou
+pressione os botões Soma e Subtrai.
+Forma de Pagamento Mostra o valor total recebido no dia totalizando por cada forma de pagamento.
+Ticket Pago com Saldo Informa o valor total dos tickets pagos com resgate de saldo de cliente.
+Operador Informa os valores que cada operador recebeu.
+Último Ticket Exibe o número do último ticket emitido no dia.
+Financeiros
+$ Svr. Fat. Dia Valor total faturado na venda de serviços no dia.
+$ Pro. Fat. Dia Valor total faturado na venda de produtos no dia.
+$ Tx. Fat. Dia Valor total faturado de taxa adicional emitidos no dia.
+$ Tot. Fat. Dia
+Valor faturado do dia é o valor total dos tickets emitidos no dia.
+A soma do valor total faturado é composta pelo valor faturado de serviço,
+produto e taxa adicional.
+O valor de desconto e tickets anulados não entra na soma deste total.
+$ Desc. Emis. Soma o valor total de descontos gerados no momento na emissão do ticket.
+$ Desc. Entr. O campo exibe o valor total de descontos concebidos aos clientes no momento da
+entrega dos tickets que estavam a pagar.
+$ Não Pg. Dia Exibe o valor total dos tickets emitidos no dia que não foram pagos.
+$ Não Pago Ac. Valor acumulado dos tickets que não foram pagos desde o primeiro dia de uso do
+sistema Allegro.Net.
+$ Recebido É o valor total recebido no dia, ou seja, é a soma dos valores dos tickets pagos
+independente se a data de emissão for diferente da data do pagamento.
+Depós. Caixa Exibe o valor depositado no caixa através da Movimentação do Caixa.
+O valor será acrescido sobre o valor final do caixa.
+Sangria Caixa A sangria é feita sempre quando o dinheiro é retirado do caixa, ocorre também
+quando um ticket pago de outro dia é anulado.
+$ no Caixa
+Exibe o valor total do caixa. É considerado o valor físico do seu caixa. O valor do
+caixa é a soma de todos os tickets pagos no dia acrescido com o valor do depósito
+menos o valor da sangria.
+Resumindo: Valor do Caixa = Valor Recebido + Depósito – Sangrias.
+Estatísticas
+Total Tickets Quantidade de tickets emitidos no dia.
+$ Méd. Ticket Estatística do preço médio de por ticket. Média do valor faturado pelo total de
+tickets emitidos.
+Total Anul. Exibe a quantidade de tickets anulados no dia.
+$ Anulações Valor total dos tickets anulados no dia.
+Total Peças Este campo exibe o número total de peças recebidas no dia.
+$ Médio Peça O campo mostra a estatística do preço médio por peças. A média é calculada
+pelo valor faturado pelo total de peças recebidas.
+Total Serviços Informa o total de serviços recebidos.
+$ Médio Serviço Exibe a estatística do preço médio por quantidade de serviços recebidos.
+Total Orça. Informa o número de orçamentos emitidos no dia.
+$ Orçamento Mostra a estatística dos valores de orçamentos.
+Total Produtos Exibe a quantidade de produtos vendidos no dia.
+$ Med. Prod Demonstra a estatística de valores recebidos na venda dos produtos.
+
+-- 27 of 53 --
+
+AllegroNet – Módulo Atendimento Página 28 de 53
+Para consultar na tela os depósitos e sangrias feitos no dia pressione o botão [F2] Sangrias/Depósitos. O
+sistema irá exibir detalhadamente cada operação realizada na movimentação do caixa.
+É possível também consultar as anulações realizadas no dia, pressione o botão [F6]
+Anulações. O sistema Allegro.Net irá exibir o número do ticket, cliente e a justificativa da
+anulação.
+O botão [F5] Fecha Caixa só deve ser utilizado para encerrar o Atendimento. Ao pressionar
+o botão irá imprimir a Leitura X e encerrar todas as atividades do Atendimento.
+As funções como Receber, Entregar, Anular serão bloqueadas, seu uso será liberado somente
+no dia seguinte.
+Redução Z [CTRL+Z]
+A Redução Z Dia exibe somente a posição do dia, não há possibilidade de visualizar dias anteriores e
+gerenciar valores de caixa por ser uma função fiscal. Os campos do Z Dia são iguais ao do CTRL+X, porém se
+impresso o valor do caixa é zerado.
+Se possuir impressora fiscal a Redução Z só pode ser emitido ao final do dia no encerramento do caixa.
+Para abrir a Redução Z clique no botão [CTRL+Z] Redução Z ou pressione as teclas [CTRL+Z].
+Pagamentos Faturados [CTRL+F]
+A tela de Pagamentos Faturados permite confirmar o pagamento do ticket sem fazer a entrega das peças, ou
+seja. A condição de Pagamento Faturado é indicada para clientes Mensalistas porque permite que as peças
+sejam entregues com o pagamento pendente e em data combinada é possível confirmar o pagamento dos
+tickets independente do status da peça.
+
+-- 28 of 53 --
+
+AllegroNet – Módulo Atendimento Página 29 de 53
+Para definir que um cliente é mensalista, acesse o cadastro do ciente e no campo Possui Faturamento
+selecione a opção POSSUI. No campo Dias de Faturamento você pode definir o dia de pagamento da fatura.
+Para registrar um ticket como faturado, ao fazer o fechamento da Recepção ou Entrega selecione
+a Condição de Pagamento Faturado. No caso de cliente mensalista automaticamente a opção
+virá selecionada.
+Para dar baixa no pagamento de um ticket Faturado de um toque sobre o botão [CTRL+F] Pagto. Faturados.
+Para localizar os tickets faturados digite o nome, o telefone ou código do cliente, em seguida de um toque
+sobre o botão [F3] Pesquisar. No campo Resultado selecione o nome do cliente desejado para listar os
+tickets com pagamento pendente.
+Marque na coluna OK somente os tickets que serão pagos. Para marcar pressione o botão Seleção, para
+selecionar o próximo ticket de um toque sobre o botão Próximo.
+
+-- 29 of 53 --
+
+AllegroNet – Módulo Atendimento Página 30 de 53
+O valor total a ser pago será exibido no campo A Pagar e selecione a Forma de Pagamento dos tickets.
+O desconto pode ser concedido individualmente sobre um determinado
+ticket, ou sobre o valor total do pagamento.
+Clique sobre o botão Desconto, e selecione o valor ou percentual do
+desconto. Se o desconto for sobre um determinado ticket, selecione o
+ticket desejado antes de pressionar o botão Desconto.
+Para conceder o desconto sobre o valor total do pagamento pressione o
+botão Desc. Valor Total.
+O botão [F11] Pagt. Pend. permite imprimir a relação dos tickets e
+valor total pendente a receber do cliente.
+Para confirmar o pagamento clique no botão [F10] Confirmar.
+Troca de Operador [Ctrl+Alt+O]
+O Allegro.Net permite que o operador trabalhe no módulo Atendimento sem pedir senha a cada operação no
+sistema.
+Para habilitar abra o módulo Administração Local, no menu
+Configurações clique na opção Gerais, na aba Geral no
+campo Tipo de Segurança no Atendimento selecione a
+opção LOGIN GERAL. Pressione [F10] para confirmar e salvar a configuração.
+Para fazer a troca de Operador dê um toque sobre o botão Operador, abrirá a janela pedindo para digitar a
+senha do operador. Digite a senha e clique no botão [F10] Confirmar para concluir a troca de Operador. Após
+a troca basta utilizar o sistema normalmente.
+Retrabalho [CTRL+R]
+O Retrabalho permite você manter um controle de todos os serviços que precisam ser refeitos sem cobrar
+esse valor do cliente. Para registrar um retrabalho de um toque sobre o botão [CTRL+R] Retrabalho.
+O sistema só permite registrar um retrabalho para tickets que já foram entregues. Digite o número do ticket
+e de um toque sobre o botão [F3] Pesquisar. Ou caso o cliente não saiba qual o número do ticket, pressione
+Cliente para que abra a tela de pesquisa de clientes onde terá o histórico de tickets entregues desse cliente.
+
+-- 30 of 53 --
+
+AllegroNet – Módulo Atendimento Página 31 de 53
+Marque a(s) peça(s) que está retornando para a produção e selecione a Justificativa de Retrabalho.
+Informe a nova data e hora de entrega. Você também poderá informar a nova posição fixa. Em seguida
+pressione o botão [F10] Confirmar para confirmar o retrabalho.
+Consultar Tabela de Preço [CTRL+P]
+Durante o Atendimento é possível consultar os preços dos serviços e produtos, para consultar pressione as
+teclas CTRL+P ou clique no botão
+[CTRL+P] Preços.
+Você pode visualizar todos os Serviços
+ou selecionar os que estão em um
+Grupo em específico. Se desejar você
+ainda pode imprimir a lista na sua
+impressora de tickets pressionando o
+botão [F11] Imprimir.
+Para consultar o preço dos produtos
+pressione o botão Produtos.
+
+-- 31 of 53 --
+
+AllegroNet – Módulo Atendimento Página 32 de 53
+Utilizando o Delivery
+O Delivery proporciona ao seu cliente o conforto e a comodidade de usufruir os seus serviços sem precisar sair
+de casa. O objetivo é facilitar o seu gerenciamento e agilizar o atendimento do cliente por telefone, no
+sistema é composto de três ações: solicitar, confirmar, e entregar.
+Solicitar Coleta [ALT+Y]
+Para registrar uma solicitação de coleta de peças clique no botão [Alt+Y] Solicitar Coleta.
+Localize o cadastro do cliente, digite o nome ou telefone e de um toque sobre o botão [F3] Pesquisar.
+Selecione o cliente desejado, e defina a data e hora da coleta.
+Selecione o Operador que irá fazer a coleta, se necessário digite o número da O.S. (número do bloco manual
+do motorista) e confirme a coleta dando um toque sobre o botão Confirmar [F10]. Caso queira, poderá ainda
+informar um valor previsto de coleta e alguma observação pertinente a coleta.
+
+-- 32 of 53 --
+
+AllegroNet – Módulo Atendimento Página 33 de 53
+Se for aquele cliente que possui Coleta Periódica, ou seja, possui coleta fixa em determinado dia da semana,
+você pode deixar programado o dia da coleta no cadastro do cliente.
+Acesse o cadastro e marque o dia da semana que é obrigatório fazer a coleta. Você pode agrupar os clientes
+por rota selecionando no cadastro o Grupo de Delivery.
+Confirmar Coleta [CTRL+Y]
+Para cancelar uma coleta ou registrar as peças que o Coletor coletou, clique no botão [Ctrl+Y] Finalizar
+Coleta.
+Localize e marque a número da Coleta na coluna Finaliza. Para anular uma solicitação de coleta basta dar
+um toque sobre o botão [F8] Anular.
+Após marcar a opção Finaliza clique no botão [F10] Confirmar. Registre as peças desejadas e confirme.
+
+-- 33 of 53 --
+
+AllegroNet – Módulo Atendimento Página 34 de 53
+No Fechamento da Recepção é possível registrar a informação de entrega por delivery, marcando um
+Entregador ou caso não desejar gerenciar o entregador padrão, pressione o botão S/ Entreg.
+Você também pode marcar o ticket para entrega após a confirmação e
+emissão do ticket, através do [CTRL+T] Visualiza Ticket.
+Pressione o botão [F6] Entregar e marque o nome do Entregador. Para
+finalizar pressione o botão [F10] Confirmar.
+Delivery Dia [ALT+D]
+O Delivery Dia possui a funcionalidade de uma agenda do Delivery. Permite visualizar as Coletas, Coletas
+Periódicas e Entregas do Dia. Para visualizar a agenda do delivery pressione o botão [Alt+D] Delivery Dia.
+Selecione a Data Delivery, você pode filtrar para listar os Tickets Entregues e/ou delivery com Status do
+motorista OK. Para visualizar pressione o botão [F3] Pesquisar.
+O sistema possibilita também organizar o resultado da pesquisa utilizando o campo Ordenado Por, com três
+tipos de Ordenação 01,02 e 03.
+
+-- 34 of 53 --
+
+AllegroNet – Módulo Atendimento Página 35 de 53
+Para qualquer ação é necessário selecionar o ticket marcando a coluna Ok com o botão Seleção.
+O botão [Ctrl+T] Ticket permite visualizar o conteúdo e informações do ticket.
+Para registrar nova coleta para o cliente selecionado na listagem pressione o botão
+[Alt+Y] Nova Coleta.
+No botão [F6] Altera Delivery é possível alterar a data e horário da entrega do delivery. É
+possível também confirmar o status de entrega do motorista ou alterar o entregador
+padrão.
+O botão [F5] Receber permite finalizar a Coleta. Ao pressionar o botão [F5] Receber
+abrirá a recepção de peças permitindo registrar a entrada dos serviços coletados.
+Grade de Entrega [CTRL+G]
+A Grade de Entregas exibe a agenda das peças a serem entregues no dia selecionado, basta dar um toque
+sobre o botão [CTRL+G] Grade de Entrega.
+A grade indica se será possível entregar a peça em determinado horário ou se irá sobrecarregar. A
+disponibilidade será exibida através do status das cores:
+ Verde: indica que a quantidade de serviços para aquele horário está abaixo do número de itens
+estipulado no valor mínimo;
+ Amarelo: a quantidade está dentro da média;
+ Vermelho: o horário está sobrecarregado de serviços;
+ Cinza: indica que o
+horário não está
+disponível, fora do
+horário de
+funcionamento da
+loja.
+Para consultar a grade por
+determinado grupo de
+serviço, marque o grupo
+desejado no campo Grupo.
+No botão [F11] Visuali. Dia
+você pode consultar
+detalhadamente as
+informações da Grade. Irá
+exibir o horário da entrega,
+número do ticket, nome do
+cliente, descrição das peças e
+serviços.
+
+-- 35 of 53 --
+
+AllegroNet – Módulo Atendimento Página 36 de 53
+É possível alterar o mínimo e máximo de peças por horário. Para alterar as configurações acesse o
+Administração Local, no menu Configurações clique na opção Gerais.
+No campo Grade de Dificuldade altere o valor Mínimo e
+Máximo.
+Você também pode habilitar a configuração Alerta para
+Grade Máxima Atingida, assim o sistema emitirá um
+alerta caso programar a entrega de uma peça para o
+horário que tiver atingido o máximo.
+O Fechamento da Recepção não irá permitir programar a entregar da peça para o horário que tiver atingido o
+máximo se habilitar a configuração Não Permite Entrega para Grade Máxima Atingida. Para salvar as
+configurações clique no botão [F10] Confirmar.
+Disponibilizar Serviços [CTRL+D]
+O recurso permite informar ao sistema Allegro.Net se o serviço está pronto ou não, e também controlar as
+comissões dos executores. De um toque sobre o botão [CTRL+D] Disponibilizar.
+Digite o número do ticket e dê um toque sobre o botão [F3] Pesquisar.
+
+-- 36 of 53 --
+
+AllegroNet – Módulo Atendimento Página 37 de 53
+No campo Ok marque o serviço que está pronto, automaticamente abrirá
+uma tela para você indicar o nome de quem executou o serviço.
+Selecione o executor desejado e de um toque sobre o botão [F10]
+Confirmar.
+Para disponibilizar todos os serviços ao mesmo tempo para o mesmo
+executor dê um toque sobre o botão Todos. Marque o nome do executor
+responsável pela produção do serviço e para finalizar pressione o botão
+[F10] Confirmar.
+A peça estará totalmente disponível se todos os seus serviços forem
+disponibilizados. No Ctrl+T o status da peça estará com a cor azul
+informando que está Disponível.
+Para quem não tem executor de serviço e deseja apenas disponibilizar a
+peça é necessário habilitar a configuração Disponibiliza sem Escolher
+Executor no Administração Local, opção Configurações Gerais.
+No Ctrl+D, basta selecionar o serviço pronto e confirmar.
+Inventário e Relação de Entrega [CTRL+E]
+Você pode imprimir uma relação dos tickets a serem entregues em determinada data ou fazer o inventário
+dos tickets que estão pendentes em sua loja. Clique no botão [CTRL+E] Entrega/Inventário.
+Entregas
+Na guia Entregas você pode visualizar os tickets a serem entregues no dia. Digite a data desejada no campo
+Data Prev. Entrega; em status do Pagamento você pode filtrar os tickets Pagos ou Não Pagos; em Situação
+do Serviço você pode listar apenas os tickets que estão Disponíveis ou Não ou ainda filtrar por determinado
+Grupo de Serviço.
+Para pesquisar pressione o botão [F3] Pesquisar. Marque os tickets desejados para impressão ou de um toque
+sobre o botão Todos para marcar todos.
+
+-- 37 of 53 --
+
+AllegroNet – Módulo Atendimento Página 38 de 53
+É possível imprimir uma relação mais detalhada dos tickets e serviços. Marque a opção Imprime Valor Ticket
+para sair impresso o valor faturado do ticket; a opção Imprime Nome/Endereço do Cliente permite imprimir
+os dados cadastrais do cliente e na opção Imprime Detalhe do Ticket permite detalhar na impressão as peças
+e serviços a serem entregues.
+Para imprimir pressione o botão [F11] Imprimir. A lista será impressa na impressora de ticket do cliente.
+Inventário
+Para imprimir a relação dos tickets que estão pendentes na loja clique na guia Inventário. Você pode
+visualizar os tickets pagos, não pagos ou faturados. No campo Situação Serviço selecione se os serviços que
+estão disponíveis para entrega ou não. Para pesquisar pressione o botão [F3] Pesquisar.
+
+-- 38 of 53 --
+
+AllegroNet – Módulo Atendimento Página 39 de 53
+Você pode filtrar as peças que desejar imprimir marcando na coluna Imp. Para imprimir os detalhes dos
+tickets, marque a opção Imprime Detalhe dos Serviços e para imprimir os valores dos tickets marque a
+opção Imprime Valor Ticket. Para imprimir pressione o botão [F11] Imprimir.
+Ajuste de Posições Fixas [Alt+P]
+A função Ajuste de Posições Fixas permite gerenciar manualmente as posições do seu cabideiro eletrônico. O
+ajuste de Posições é somente para as lojas que utilizam à configuração do sistema que pergunta o total de
+posições que as peças dos tickets ocuparão.
+Para configurar abra o módulo Administração Local, no menu
+Configurações clique na opção Gerais. Clique na aba Impressão, no
+campo Posição Fixa selecione o Tipo de Posição Fixa Numérica
+Perguntando Posições. No campo Total de Posições digite o total
+de posições ou casas que o seu cabideiro possui.
+No Atendimento ao fazer o fechamento da recepção informe quantas posições você
+quer que o ticket ocupe no cabideiro.
+Exemplo: o cliente trouxe 8 ternos que irão ocupar no cabideiro apenas 4 posições, no
+campo Tot. Pos. do Atendimento irá digitar o número 4.
+
+-- 39 of 53 --
+
+AllegroNet – Módulo Atendimento Página 40 de 53
+Ao finalizar o atendimento desse cliente o sistema irá verificar quais são as posições que estão livres e
+sequenciais para reservá-las para o ticket.
+Para fazer o ajuste manual ou visualizar as posições que estão ocupadas no sistema de um toque sobre o
+botão [Alt+P] Ajus Posição.
+O sistema irá exibir todas as
+posições ocupadas e
+informar o número do ticket
+que ocupa as mesmas. Para
+limpar a posição marque na
+coluna Exc. E clique no
+botão [F8] Excluir, em
+seguida pressione o botão
+OK na mensagem que
+aparecerá confirmando
+exclusão do ticket na
+posição.
+Posições em Duplicidade
+tem a finalidade de mostrar
+os tickets que estão com
+peças pendentes e o número
+da posição fixa duplicados.
+Ao abrir o Ajuste de Posições
+fixas, automaticamente o
+sistema tenta ajustar os
+tickets com posição fixa que
+estavam duplicados. Se a
+posição ficou livre ele transfere.
+Visualiza Ticket [CTRL+T]
+Para visualizar o conteúdo e o status de um determinado ticket clique no botão [CTRL+T] Visualiza Ticket.
+Digite o número do ticket que deseja consultar e pressione o botão [F3] Pesquisar. No campo Dados do
+Ticket é possível visualizar a Data de Emissão e Prevista para entrega, o operador que emitiu o ticket, os
+dados do cliente e o número da Posição do cabideiro.
+
+-- 40 of 53 --
+
+AllegroNet – Módulo Atendimento Página 41 de 53
+Em Detalhes é possível visualizar o valor faturado, descontos e taxa adicional. Abaixo são exibidos os serviços
+que compõe o ticket, as observações, data e hora que cada um foi entregue, o nome do operador que
+entregou e a data de disponibilização.
+No Visualizar Ticket é possível consultar status de cada peça. O status é diferenciado por cor, permitindo
+assim agilidade na identificação da situação de cada peça.
+Para conferir se o ticket foi pago ou não, visualize a condição do pagamento no campo Forma de Pagamento.
+O status do pagamento também é diferenciado por cor, o valor que estiver com a cor Amarelo está com o
+status não pago.
+No botão [F4] Observação você pode registrar qualquer observação referente ao ticket
+após a sua emissão, mantendo assim um histórico. A observação é interna e não é impressa
+quando solicitado à remissão do ticket.
+Em [F6] Entregar é possível alterar a data prevista, ou data e horário da entrega do
+delivery. É possível também confirmar o status de entrega do motorista ou alterar o
+entregador padrão.
+Para alterar a data prevista de entrega, altera apenas a data no campo Entrega e pressione o botão [F10]
+Confirmar.
+
+-- 41 of 53 --
+
+AllegroNet – Módulo Atendimento Página 42 de 53
+Caso deseje marcar o ticket para entrega,
+selecione o Entregador. Também é possível
+Gerar Taxa Adicional para o delivery, basta
+selecionar a taxa já cadastrada ou informar
+o valor.
+No Status Motorista você pode informar que
+o delivery foi entregue marcando o botão
+Ok sem a necessidade de fazer a entrega do
+ticket. Caso o motorista não tenha
+conseguido fazer a entrega das peças,
+marque a opção Pendente, assim é possível
+visualizar a listagem de todos os deliveries
+programados para o dia e que não foram
+entregues.
+Após a emissão do ticket é possível
+confirmar o seu pagamento através do botão
+[F12] Pagar.
+Selecione a forma de pagamento, caso tiver
+desconto informe o mesmo no campo Desconto. Para
+confirmar o pagamento total pressione o botão [F10]
+Confirmar.
+Também é possível confirmar parcialmente o pagamento do
+ticket através do botão [F12] Pagar pressione o botão Pg
+Parcial. Informe apenas o valor a ser pago, a forma de
+pagamento e pressione o botão [F10] Confirmar.
+Durante a visualização do ticket, caso precise fazer a disponibilizaçã do serviço você não
+precisa fechar a Visualização do Ticket para abrir a tela de Disponibilizar, para essa função
+o sistema Allegro.Net oferece um botão de atalho. Para disponibilizar o serviço através da
+tela do Ctrl+T pressione o botão [Ctrl+D] Disponibi..
+Se o único número de referencia da peça for o lacre do
+terceiro, você pode identificar o ticket através do
+botão [F7] Pesq. Lacre.
+Digite o número do lacre do terceiro no campo Lacre e
+pressione o botão [F3] Pesquisar. Abaixo serão listados todos os tickets
+identificados com o lacre, selecione o número do ticket desejado e
+pressione o botão [F10] Confirmar para visualizar as informações do
+ticket.
+
+-- 42 of 53 --
+
+AllegroNet – Módulo Atendimento Página 43 de 53
+Localizar Peça [CTRL+Q]
+O sistema Allegro.Net permite localizar os tickets apenas com as informações das peças, serviços,
+observações entre outros. Para fazer a pesquisa das peças pressione o botão [CTRL+Q] Localiza Peça.
+No campo Data Base você pode localizar os tickets pela data da recepção das peças, data da entrega ou pela
+data prevista para a entrega. Selecione o tipo da Data e digite o período desejado no campo De e Até.
+Selecione o filtro desejado e pressione o botão [F3] Pesquisar. O sistema irá listar todos os tickets
+localizados no campo Tickets Encontrados.
+Se desejar você pode visualizar o ticket escolhido, basta selecionar o número do ticket e pressionar o botão
+[Ctrl+T] Ticket. Para fazer uma nova pesquisa pressione o botão [F11] Limpar para limpar os filtros de
+pesquisa da tela.
+Dica
+A pesquisa ficará menor ou restrita conforme a quantidade e detalhamento das observações
+da peça no momento da recepção.
+Na tela da Localização das Peças, o sistema Allegro.Net oferece botões de atalho para registrar a entrega das
+peças. Para fazer a entrega total das peças, selecione o ticket desejado e pressione o botão [F6] Entregar,
+ou caso deseje fazer a entrega parcial das peças pressione o botão [Ctrl+F6] E. Peça.
+
+-- 43 of 53 --
+
+AllegroNet – Módulo Atendimento Página 44 de 53
+Terceirização de Serviços
+O sistema Allegro.Net permite controlar o serviço que é executado por uma empresa terceirizada, dessa
+forma você pode gerenciar melhor a movimentação de entrada e saída de peças da sua loja.
+Cadastrando os Terceiros
+O cadastro com as informações da Empresa
+Terceirizada pode ser realizado tanto no
+Administração Local quanto no Atendimento.
+Para cadastrar o Terceiro no Atendimento de
+um toque sobre o botão [CTRL+C] Enviar
+Terceiros.
+Pressione o botão [F4] Incluir para cadastrar
+um novo Terceiro.
+Digite os dados cadastrais, para informar que
+essa empresa presta serviços terceirizados é
+necessário que a opção Terceiro esteja
+marcada.
+Caso o número de lacre do lote seja
+obrigatório marque a opção Exige Lacre.
+Para confirmar o cadastro de um toque sobre
+o botão [F10] Confirmar.
+Enviando as Peças para os Terceiros
+Para enviar as peças para o Terceiro de um toque sobre o botão [CTRL+C] Enviar
+Terceiros, selecione o Terceiro desejado e automaticamente serão listados os
+serviços já pré-determinados no Administração Local.
+Para confirmar o envio desses serviços marque os tickets desejados na coluna OK e clique no botão [F3]
+Inclui para incluir as peças na relação de envio.
+Os itens serão enviados para o lado direito da janela, antes de confirmar o envio confira os itens selecionados
+e se estiver tudo ok, marque na coluna Exc.
+No campo Comprovante você pode selecionar a opção Relatório para visualizar o relatório de remessa após
+confirmar o envio. Para finalizar pressione o botão [F10] Confirmar para confirmar a saída dos serviços da
+loja para a empresa Terceirizada.
+No botão Ticket, o sistema vai emitir após a confirmação do lote uma via para cada peça enviada.
+O mesmo botão existe na tela do relatório Remessa para Terceiros deste módulo.
+
+-- 44 of 53 --
+
+AllegroNet – Módulo Atendimento Página 45 de 53
+Você pode fazer a conferencia através da leitura do código de barras da peça, ao fazer a leitura o sistema
+seleciona na listagem o serviço pesquisado. O botão Gravar permite salvar a conferencia das peças caso for
+necessário encerrar a tela de envio para terceiros.
+Para enviar uma peça que não foi
+definida no Administração Local,
+selecione o Terceiro desejado e
+pressione o botão [F3] Ticket.
+Digite o Número do Ticket e dê um
+toque sobre o botão Pesquisar
+[F3]. Marque as peças desejadas
+na coluna Ok e de um toque sobre
+o botão [F10] para enviar os
+serviços para o Terceiro.
+Os serviços serão enviados para o
+lado direito da janela, informe o
+prazo de devolução das peças e o
+valor cobrado pelo Terceiro caso
+este ainda não tenha sido pré-
+definido.
+Marque as peças na coluna Exc e de um toque sobre o botão [F10] Confirmar para finalizar.
+
+-- 45 of 53 --
+
+AllegroNet – Módulo Atendimento Página 46 de 53
+É possível enviar também para terceiros uma peça registrada como Orçamento, para fazer o envio pressione o
+botão [Ctrl+F3] Orçam. Localize o Orçamento e confirme.
+Caso tenha marcado um serviço errado, basta selecionar na coluna Exc e clicar no botão [F8] Anular.
+Retorno das Peças (Finalizar Terceiros)
+Quando a empresa terceirizada devolve os serviços para a loja é necessário fazer o retorno das peças no
+sistema. A principal finalidade do retorno é a conferência das peças e informar que as mesmas já estão
+disponíveis e prontas para o cliente retirar. Para fazer o retorno de um toque sobre o botão [Alt+C] Finalizar
+Terceiros.
+Selecione a empresa Terceirizada, automaticamente serão listados todos os serviços que foram enviados para
+ele. Marque todos que estão retornando na loja na coluna OK e clique no botão [F10] para confirmar o
+retorno.
+Caso um serviço que deseje excluir retornou sem ser efetuado ou foi enviado para o Terceiro incorreto,
+marque a coluna Ok e clique no botão [F8] Anular.
+Baixa de Insumos [CTRL+U]
+
+-- 46 of 53 --
+
+AllegroNet – Módulo Atendimento Página 47 de 53
+Agora no Atendimento do Allegro.Net você pode fazer a baixa e controle dos insumos utilizados na sua loja.
+Para fazer a baixa de um toque
+sobre o botão [CTRL+U] Uso
+Insumo.
+Primeiro de selecione o grupo de
+insumos desejado, abaixo serão
+listados os insumos cadastrados
+naquele grupo. Pressione o
+insumo desejado, abaixo no
+campo Quantidade digite a
+quantidade retirada do estoque e
+no campo Observação digite a
+justificativa de uso do insumo.
+Para confirmar pressione o botão
+[F10] Confirmar.
+Controle de Operador [CTRL+H]
+O Sistema Allegro.Net auxilia no controle de horário de entrada e saída dos Operadores. Pressione o botão
+[CTRL+H] Horário para abrir a tela de Controle de Horário.
+No campo Código de Barras (Leitor do Crachá) passe a leitora (se possuir) sobre o código de barras do crachá
+do operador e digite a senha de segurança.
+De um toque sobre o botão [F3] Pesquisar para
+localizar o cadastro e para confirmar clique no botão
+[F10] Confirmar.
+Caso não possua Leitor, basta digitar o nome do
+operador no campo Código de Barras (Leitor do
+Crachá) ou apenas a senha no respectivo campo e
+pressione o botão [F3] Pesquisar.
+Para permitir que o sistema gerencie as horas extras
+dos operadores é necessário cadastrar os horários de
+entrada, saída e almoço na tela de Cadastro de
+Operador no Administração Local.
+Versão e Liberação de Acesso [CTRL+V]
+
+-- 47 of 53 --
+
+AllegroNet – Módulo Atendimento Página 48 de 53
+O botão [CTRL+V] Versão/Liberação exibe uma janela com os dados do sistema com o nome e código da loja
+licenciada a utilizar o sistema Allegro.Net; exibe a Versão do Sistema e principalmente permite fazer a
+liberação de acesso.
+Para fazer a liberação do sistema, no campo Senha de Liberação digite a senha mensal informada pela
+Ideológica e pressione o botão [F10] Confirmar.
+A senha também pode ser liberada se a mesma estiver
+disponível na internet, para consultar a senha do mês
+pressione o botão [Ctrl+W] Web.
+As empresas que fazem necessário a sincronização de dados
+para a Matriz, em caso de bloqueio digite a senha no campo
+Senha de Liberação e pressione o botão [F10] Confirmar.
+Para auxiliar nos acessos remotos que por ventura temos
+que realizar, criamos um atalho a ferramenta Show My PC
+em nosso software, podendo ser acessada através do botão
+[Ctrl+F1] Suporte, nesse atalho você poderá clicar em
+acesso remoto e assim liberar para que um técnico da
+ideológica possa realizar o acesso.
+
+-- 48 of 53 --
+
+AllegroNet – Módulo Atendimento Página 49 de 53
+Relatórios [Alt+R]
+O Atendimento permite processar alguns relatórios para gerenciar de forma mais rápida a movimentação de
+sua loja. Para visualizar pressione o botão [Alt+R] Relatórios.
+Nesta tela você encontra os relatórios de Volume de Peças, Solicitações Coleta/Entrega, Peças a Entregar,
+Remessa para Terceiros, Anulações Realizadas, Retrabalhos Realizados, Produtos Vendidos, Clientes Novos,
+Tickets, Movimentações do Caixa, Descontos Concedidos e Redução Z Dia.
+Solicitações Coleta e Entrega
+Para saber qual a quantidade de delivery que você tem no dia dê um toque sobre o botão Solicitações
+Coleta/Entrega. Selecione o dia e clique no botão [F10] Tela para visualizar na tela o relatório. Aguarde até
+processar o relatório, o sistema irá exibir todas as coletas ou entregas do dia selecionado.
+
+-- 49 of 53 --
+
+AllegroNet – Módulo Atendimento Página 50 de 53
+Peças a Entregar
+Permite listar detalhadamente os tickets para conferir a hora e as peças a serem entregues no dia. Dê um
+toque sobre o botão Peças a Entregar, selecione o dia desejado e pressione o botão Tela para visualizar o
+relatório.
+
+-- 50 of 53 --
+
+AllegroNet – Módulo Atendimento Página 51 de 53
+Volume de Peças
+Para saber o volume total das peças recebidas no dia clique no botão Volume de Peças, selecione o dia
+desejado e para visualizar o relatório pressione o botão Tela.
+Remessa para Terceiros
+Processa uma listagem com todas as
+peças enviadas para o Terceiro que
+você selecionar. Dê um toque sobre
+o botão Remessa para Terceiros.
+Selecione o Terceiro e a data, em
+Layout você pode definir o tipo de
+relatório que deseja visualizar, se
+detalhado ou resumido. De um toque
+sobre o botão Tela para visualizar o
+relatório de Remessa para Terceiros.
+Anulações Realizadas
+Processe um relatório com a listagem de todas as anulações realizadas no dia. Basta dar um toque sobre o
+botão Anulações Realizadas, digite a data desejada e pressione o botão Tela para visualizar o relatório.
+O relatório listará o número do ticket anulado, operador que anulou e a Justificativa de Anulação.
+Retrabalhos Realizados
+O relatório exibe todas as peças que passaram por um retrabalho em um determinado dia. Dê um toque sobre
+o botão Retrabalhos Realizados para visualizar os retrabalhos, selecione o dia desejado e pressione o botão
+Tela para visualizar o relatório.
+Produtos Vendidos
+
+-- 51 of 53 --
+
+AllegroNet – Módulo Atendimento Página 52 de 53
+Exibe a relação de todos os produtos vendidos no dia. Dê um toque sobre o botão Produtos, selecione o dia
+desejado e pressione o botão Tela para visualizar o relatório.
+Clientes Novos
+O relatório de Clientes Novos lista todos os clientes novos que foram cadastrados em um determinado dia,
+basta dar um toque sobre o botão Clientes Novos, selecionar a data desejada e clicar no botão Tela para
+visualizar o relatório desses clientes.
+Tickets
+Para visualizar as informações sobre os tickets emitidos no
+dia, pressione o botão Ticket. Você pode visualizar todas as
+informações dos tickets emitidos de serviços e produtos,
+pagos, entregues, por previsão de entrega e os não pagos.
+Movimentações Caixa
+Para tirar uma listagem das sangrias, depósitos ou lançamentos de movimentação do caixa, pressione o botão
+Movimentações Caixa.
+Selecione a Situação do Pagamento e o
+Tipo do Lançamento, créditos, débitos
+ou ambos, em seguida selecione a data e
+clique no botão Tela para visualizar o
+relatório dessas movimentações.
+Descontos Concedidos
+Para visualizar os tickets que tiveram descontos no dia especificado clique no botão Descontos Concedidos,
+selecione a data desejada e pressione o botão Tela para visualizar o relatório dos tickets que tiveram
+descontos.
+
+-- 52 of 53 --
+
+AllegroNet – Módulo Atendimento Página 53 de 53
+Redução Z Dia
+O relatório da Redução Z Dia, permite visualizar a informação de todas as Reduções Z Dia impressos na tela
+do Atendimento
+
+-- 53 of 53 --
+
