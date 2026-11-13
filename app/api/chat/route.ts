@@ -13,8 +13,11 @@ export async function POST(req: Request) {
   try {
     const { messages } = await req.json();
 
+    // Modelo Gemini atualizado (gemini-3.5-flash ou customizável via env)
+    const modelName = process.env.GEMINI_MODEL || 'gemini-3.5-flash';
+
     const result = streamText({
-      model: google('gemini-1.5-flash'),
+      model: google(modelName),
       messages,
       system:
         `Você é o assistente virtual interno da 5àsec de Pedro Leopoldo. Seu objetivo é ajudar os operadores de caixa a utilizarem o ERP Allegro.NET. Responda de forma clara, direta e em português. Baseie-se estritamente nas regras do manual do sistema.` +
@@ -32,12 +35,12 @@ COLE AQUI O TEXTO EXTRAÍDO DOS MANUAIS EM PDF DO SISTEMA ERP ALLEGRO.NET
     });
 
     return result.toDataStreamResponse();
-  } catch (error) {
+  } catch (error: unknown) {
+    const errMessage = error instanceof Error ? error.message : 'Erro ao processar mensagem no chat.';
     console.error('Erro na rota de chat:', error);
     return new Response(
       JSON.stringify({
-        error:
-          'Ocorreu um erro ao processar a resposta. Verifique se a variável GEMINI_API_KEY está configurada.',
+        error: errMessage,
       }),
       {
         status: 500,
